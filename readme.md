@@ -48,7 +48,7 @@ Invalid
 
 ### 角色划分
 
-* 老板：使用root账户，可以访问系统所有功能，可以进行用户管理以及批量操作。
+* 老板：使用root账户，可以访问系统所有功能，可以进行用户管理。
 * 员工：可以且仅可以访问与自己业务相关的功能、数据。
 * 顾客：
   * 可以进行账户注册，查询书目以及书目购买，不能访问其他功能。
@@ -65,6 +65,8 @@ Invalid
 ### 相关命令
 
 用户系统使用如下命令:
+
+**注：右边备注数字为执行该命令所需最低权限。即：`privilege >= 该数字`的账户可执行此命令**
 
 ```sh
 su [user-id] [passwd] #0:登录到某用户，从高权限用户登录到低权限不需填写密码
@@ -90,6 +92,8 @@ passwd [user-id] [old-passwd(if not root)] [new-passwd] #1:root不需要填写�
 
 注意:每次打开程序时默认select空对象，若此时进行import或modify视为Invalid。
 
+**注：右边备注数字为执行该命令所需最低权限。即：`privilege >= 该数字`的账户可执行此命令**
+
 ```sh
 select [ISBN] #3:选定ISBN为指定值的图书，若不存在则创建该ISBN的书并将其余信息留空等待modify进行填写
 modify -ISBN=[ISBN] -name=[name] -author=[author] -keyword=[keyword] -price=[price] #3:参数可省略，也不要求输入顺序，会更新(替换而非添加)上次选中的书至新的信息
@@ -110,12 +114,12 @@ buy [ISBN] [quantity] #1:购买该ISBN号的图书[quantity]本
   * 内容总共不超过60个英文字符
 * `[quantity]` 为整数(<100000)
 
-对于show操作，输出格式为:每行一本，所有信息项目间以\t 隔开，价格保留两位，如:
+对于show操作，输出格式为:每行一本，所有信息项目间以`\t`隔开，价格保留两位小数，如:
 
-```shell
+```sh
 $ show #允许无参数情况
-7302294909 ACM国际大学生程序设计竞赛:知识与入门 俞勇 ACM|编程 28.10 1000本
-9787313136275 C++程序设计 翁惠玉 C++|编程 29.00 1000本
+9787532736553 The_Man_Who_Changed_China Robert_Lawrence_Kuhn China|Jiang 59.00 1926
+9787111631101 Computer_Architecture_A_Quantitative_Approach B John_L_Hennessy Computer_Architecture 238.70 1000
 ```
 
 对于`show finance`操作，格式为`+ [收入] - [支出]\n`(不含大括号)，如:
@@ -161,6 +165,7 @@ log #7:会返回赏心悦目的日志记录，包括系统操作类的谁干了�
 * 开发文档完善程度
 * 正确通过测试**(可能包括额外的鲁棒性测试，未能通过会导致少量扣分)** 
 * **OOP：过少或不当的封装将导致少量扣分**
+* 与文档一致性：**代码实现与开发文档差异过大将大量扣分**
 * Bonus：
   * 实现基于数字选择的用户界面
   * 实现Tab补全(Posix平台)
