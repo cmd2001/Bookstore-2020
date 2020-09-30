@@ -120,7 +120,7 @@ buy [ISBN] [quantity] #1:购买该ISBN号的图书[quantity]本
 ```sh
 $ show #允许无参数情况
 9787532736553 The_Man_Who_Changed_China Robert_Lawrence_Kuhn China|Jiang 59.00 1926
-9787111631101 Computer_Architecture_A_Quantitative_Approach B John_L_Hennessy Computer_Architecture 238.70 1000
+9787111631101 Computer_Architecture_A_Quantitative_Approach John_L_Hennessy Computer_Architecture 238.70 1000
 ```
 
 对于`show finance`操作，格式为`+ [收入] - [支出]\n`(不含大括号)，如:
