@@ -194,6 +194,39 @@ private:
     vector<pair<User_ID, int> > login_stack;
     vector<ISBN> select_stack;
 
+    void erase_Book(const ISBN isbn) {
+        const auto info = db_book.query(isbn).second;
+        db_book.erase(isbn);
+
+        index_name.erase(info.get_name());
+        index_author.erase(info.get_author());
+        for(auto &t: info.get_keywords()) {
+            index_keyword.erase(t);
+        }
+    }
+    void add_book(const Book &book) {
+        db_book.insert(book.get_ISBN(), book);
+
+        index_name.insert(book.get_name(), book.get_ISBN());
+        index_author.insert(book.get_author(), book.get_ISBN());
+        for(auto &t: book.get_keywords()) {
+            index_keyword.insert(t, book.get_ISBN());
+        }
+    }
+    void save_Meta() {
+        if(!db_metadata.query(1).first) {
+            db_metadata.insert(1, current_Opt);
+            db_metadata.insert(2, sum_positive);
+            db_metadata.insert(3, sum_negative);
+        } else {
+            db_metadata.modify(1, current_Opt);
+            db_metadata.modify(2, sum_positive);
+            db_metadata.modify(3, sum_negative);
+        }
+        db_finance.insert(current_Opt, make_pair(sum_positive, sum_negative));
+    }
+
+public:
     int get_cur_pri() {
         if(login_stack.empty()) return 0;
         return login_stack.rbegin()->second;
@@ -202,7 +235,7 @@ private:
         User_ID temp(userid);
         auto info = db_user.query(userid);
         if(!info.first) return 0; // no such user.
-        if(!info.second.check_Password(password)) return 0; // wrong password.
+        if(get_cur_pri() <= info.second.pri && !info.second.check_Password(password)) return 0; // wrong password.
         login_stack.push_back(make_pair(userid, info.second.pri));
         select_stack.push_back(ISBN());
         return 1;
@@ -256,25 +289,6 @@ private:
         *select_stack.rbegin() = i;
         return 1;
     }
-    void erase_Book(const ISBN isbn) {
-        const auto info = db_book.query(isbn).second;
-        db_book.erase(isbn);
-
-        index_name.erase(info.get_name());
-        index_author.erase(info.get_author());
-        for(auto &t: info.get_keywords()) {
-            index_keyword.erase(t);
-        }
-    }
-    void add_book(const Book &book) {
-        db_book.insert(book.get_ISBN(), book);
-
-        index_name.insert(book.get_name(), book.get_ISBN());
-        index_author.insert(book.get_author(), book.get_ISBN());
-        for(auto &t: book.get_keywords()) {
-            index_keyword.insert(t, book.get_ISBN());
-        }
-    }
     bool modify(const char* isbn, const char* name, const char* author, const char* keyword, const double price) {
         if(get_cur_pri() < 3) return 0; // privilege error.
         if(select_stack.rbegin()->is_null()) return 0; // selected null book.
@@ -323,7 +337,7 @@ private:
 
     pair<bool, pair<long double, long double> > show_finance(int time) {
         if(get_cur_pri() != 7 || current_Opt - time < 0) return make_pair(0, make_pair(0, 0)); // privilege error or time > opt.
-        auto ref = db_finance.query(current_Opt - time).second;
+        auto ref = time != -1 ? db_finance.query(current_Opt - time).second : make_pair((long double)0, (long double)0);
         return make_pair(1, make_pair(sum_positive - ref.first, sum_negative - ref.second));
     }
 
@@ -342,19 +356,6 @@ private:
         return make_pair(1, quantity * book.price);
     }
 
-    void save_Meta() {
-        if(!db_metadata.query(1).first) {
-            db_metadata.insert(1, current_Opt);
-            db_metadata.insert(2, sum_positive);
-            db_metadata.insert(3, sum_negative);
-        } else {
-            db_metadata.modify(1, current_Opt);
-            db_metadata.modify(2, sum_positive);
-            db_metadata.modify(3, sum_negative);
-        }
-        db_finance.insert(current_Opt, make_pair(sum_positive, sum_negative));
-    }
-public:
     Bookstore(): db_book("db/db_book.bin"), index_name("db/index_name.bin"), index_author("db/index_author.bin"),
                  index_keyword("db/index_keyword.bin"), db_user("db/db_user.bin"), db_finance("db/db_finance.bin"),
                  db_metadata("db/db_metadata.bin") {
@@ -372,9 +373,150 @@ public:
 };
 
 class Validator { // todo: input Validator
+public:
+    bool userid(const string x) const {
+        return 1;
+    }
+    bool password(const string x) const {
+        return 1;
+    }
+    bool privilege(const string x) const {
+        return 1;
+    }
+    bool name(const string x) const {
+        return 1;
+    }
+    bool isbn(const string x) const {
+        return 1;
+    }
+    bool bookname(const string x) const {
+        return 1;
+    }
+    bool author(const string x) const {
+        return 1;
+    }
+    bool keyword(const string x) const {
+        return 1;
+    }
+    bool quantity(const string x) const {
+        return 1;
+    }
+    bool price(const string x) const {
+        return 1;
+    }
 };
 
 class Interpreter { // todo: interactive interpreter
+private:
+    Bookstore core;
+    Validator valid;
+    vector<string> split(const string &s) {
+        vector<string> ret;
+        for(int i = 0, j = 0; i < s.length(); i = j) {
+            while(i < s.length() && s[i] == ' ') ++i;
+            if(i == s.length()) break;
+            for(j = i; j < s.length() && s[j] != ' '; j++);
+            ret.push_back(s.substr(i, j - i));
+        }
+        return ret;
+    }
+    string getline() {
+        string ret;
+        char c;
+        while((c = getchar()) != '\n' && c != EOF) ret = ret + c;
+        return ret;
+    }
+    void Invalid() {
+        puts("Invalid");
+    }
+    int string2int(const string &x) {
+        int ret = 0;
+        for(int i = 0; i < x.length(); i++) ret = ret * 10 + x[i] - '0';
+        return ret;
+    }
+    double string2double(const string &x) {
+        double ret = 0, mul = 0.1;
+        bool flag = 0;
+        for(int i = 0; i < x.length(); i++) {
+            if(x[i] == '.') flag = 1;
+            else {
+                if(!flag) ret = ret * 10 + x[i] - '0';
+                else ret += mul * (x[i] - '0'), mul *= 0.1;
+            }
+        }
+        return ret;
+    }
+public:
+    Interpreter() {
+        string line;
+        while((line = getline()) != "") {
+            auto sp = split(line);
+            if(sp[0] == "su") {
+                if(sp.size() == 3) {
+                    if(!valid.userid(sp[1]) || !valid.password(sp[2])) Invalid();
+                    else if(!core.su(sp[1].c_str(), sp[2].c_str())) Invalid();
+                } else {
+                    if(sp.size() != 2) Invalid();
+                    else if(!core.su(sp[1].c_str(), "")) Invalid();
+                }
+            } else if(sp[0] == "logout") {
+                if(sp.size() != 1) Invalid();
+                else if(!core.logout()) Invalid();
+            } else if(sp[0] == "useradd") {
+                if(sp.size() != 5) Invalid();
+                else if(!valid.userid(sp[1]) || !valid.password(sp[2]) || !valid.privilege(sp[3]) || !valid.name(sp[4])) Invalid();
+                else if(!core.useradd(sp[1].c_str(), sp[2].c_str(), string2int(sp[3]), sp[4].c_str())) Invalid();
+            } else if(sp[0] == "register") {
+                if(sp.size() != 4) Invalid();
+                else if(!valid.userid(sp[1]) || !valid.password(sp[2]) || !valid.name(sp[3])) Invalid();
+                else if(!core.reg(sp[1].c_str(), sp[2].c_str(), sp[3].c_str())) Invalid();
+            } else if(sp[0] == "delete") {
+                if(sp.size() != 2) Invalid();
+                else if(!valid.userid(sp[1])) Invalid();
+                else if(!core.del(sp[1].c_str())) Invalid();
+            } else if(sp[0] == "passwd") {
+                if(sp.size() == 4) {
+                    if(!valid.userid(sp[1]) || !valid.password(sp[2]) || !valid.password(sp[3])) Invalid();
+                    else if(!core.passwd(sp[1].c_str(), sp[2].c_str(), sp[3].c_str())) Invalid();
+                } else {
+                    if(core.get_cur_pri() != 7 || !valid.userid(sp[1]) || !valid.password(sp[2])) Invalid();
+                    else if(!core.passwd(sp[1].c_str(), "", sp[2].c_str())) Invalid();
+                }
+            } else if(sp[0] == "select") {
+                if(sp.size() != 2) Invalid();
+                else if(!valid.isbn(sp[1])) Invalid();
+                else if(!core.select(sp[1].c_str())) Invalid();
+            } else if(sp[0] == "modify") {
+            } else if(sp[0] == "import") {
+                if(sp.size() != 3) Invalid();
+                else if(!valid.quantity(sp[1]) || !valid.price(sp[2])) Invalid();
+                else if(!core.import(string2int(sp[1]), string2double(sp[2]))) Invalid();
+            } else if(sp[0] == "show") {
+                if(sp[1] == "finance") {
+                    if(sp.size() > 3) Invalid();
+                    else {
+                        if(sp.size() == 3 && !valid.quantity(sp[2])) Invalid();
+                        else {
+                            int tim = -1;
+                            if(sp.size() == 3) tim = string2int(sp[2]);
+                            auto ret = core.show_finance(tim);
+                            if(!ret.first) Invalid();
+                            else printf("+ %0.2lf - %0.2lf\n", ret.second.first, ret.second.second);
+                        }
+                    }
+                } else {
+                }
+            } else if(sp[0] == "buy") {
+                if(sp.size() != 3) Invalid();
+                else if(!valid.isbn(sp[1]) || !valid.quantity(sp[2])) Invalid();
+                else {
+                    auto t = core.buy(sp[1].c_str(), string2int(sp[2]));
+                    if(!t.first) Invalid();
+                    else printf("%0.2f\n", t.second);
+                }
+            } else Invalid();
+        }
+    }
 };
 
 #endif //BOOKSTORE_2020_EVERYTHING_HPP
