@@ -7,7 +7,7 @@
 #include <algorithm>
 #include <cassert>
 #include "database.hpp"
-#include "../include/List.hpp"
+#include "List.hpp"
 #define debug cerr
 using namespace std;
 

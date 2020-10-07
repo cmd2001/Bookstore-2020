@@ -8,7 +8,7 @@
 #include <cmath>
 #include <string>
 #include <fstream>
-#include "../include/List.hpp"
+#include "List.hpp"
 
 template <typename Key>
 bool isequal(const Key&a,const Key &b){
