@@ -183,3 +183,30 @@ log #7:会返回赏心悦目的日志记录，包括系统操作类的谁干了�
 * 添加命令`quit`，用于退出程序。即：退出条件为：读到`EOF`或读到`quit`。
 * 高权限用户低权限用户，提供密码，但是密码错误，为`Invalid`。
 * 对于`show`操作，库存为0的书也要正常输出；如果没有符合条件的书，输出一个空行`\n`。
+
+## 一个样例
+
+```sql
+su root sjtu
+useradd rbq rbqqqaq 3 rbq
+select ISBN1
+modify -name="name1" -author="author1" -keyword="keyword1" -price=10.00
+show # ISBN1 name1 author1 keyword1 10.00 0
+su rbq
+select ISBN1
+modify -isbn=ISBN2
+show # ISBN2 name1 author1 keyword1 10.00 0
+su root sjtu
+select ISBN2
+modify -isbn=ISBN3
+show # ISBN3 name1 author1 keyword1 10.00 0
+logout
+modify -price=20.00
+show # ISBN3 name1 author1 keyword1 20.00 0
+logout
+show # ISBN3 name1 author1 keyword1 20.00 0
+modify -isbn=ISBN4
+show # ISBN4 name1 author1 keyword1 10.00 0
+logout
+```
+
