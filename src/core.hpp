@@ -131,10 +131,19 @@ public:
         if(get_cur_pri() < 3) return 0; // privilege error.
         if(select_stack.rbegin()->is_null()) return 0; // selected null book.
         auto book = db_book.query(*select_stack.rbegin()).second;
+
         erase_Book(*select_stack.rbegin());
         *select_stack.rbegin() = ISBN(isbn);
 
-        if(strlen(isbn)) book.fill_ISBN(isbn);
+        if(strlen(isbn)) {
+            ISBN old_ISBN = *select_stack.rbegin();
+            ISBN new_ISBN = ISBN(isbn);
+            for(unsigned i = 0; i < select_stack.size(); i++) {
+                if(!(select_stack[i] < old_ISBN) && !(old_ISBN < select_stack[i]))
+                    select_stack[i] = new_ISBN;
+            }
+            book.fill_ISBN(isbn);
+        }
         if(strlen(name)) book.fill_name(name);
         if(strlen(author)) book.fill_author(author);
         if(strlen(keyword)) book.fill_keyword(keyword);
