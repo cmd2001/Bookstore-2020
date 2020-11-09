@@ -8,4 +8,4 @@ include_directories(
 	${PROJECT_SOURCE_DIR}/src/include/
 )
 AUX_SOURCE_DIRECTORY(src DIR_SRCS)
-add_executable(code src/main.cpp src/everything.hpp)
+add_executable(code src/main.cpp)
