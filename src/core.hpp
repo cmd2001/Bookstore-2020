@@ -102,6 +102,7 @@ public:
     bool del(const char* userid) {
         if(get_cur_pri() != 7) return 0; // not root
         User_ID uid(userid);
+        if(!db_user.query(uid).first) return 0; // no such user
         for(auto &t: login_stack) {
             if(!(uid < t.first) && !(t.first < uid)) return 0; // cannot delete user in login stack!
         }
@@ -133,7 +134,6 @@ public:
         auto book = db_book.query(*select_stack.rbegin()).second;
 
         erase_Book(*select_stack.rbegin());
-        *select_stack.rbegin() = ISBN(isbn);
 
         if(strlen(isbn)) {
             ISBN old_ISBN = *select_stack.rbegin();
@@ -223,6 +223,9 @@ public:
         } else {
             sum_positive = sum_negative = current_Opt = 0;
             save_Meta();
+            User_ID uid("root");
+            User temp_User("root", "sjtu", "root", 7);
+            db_user.insert(uid, temp_User);
         }
     }
 };

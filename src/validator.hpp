@@ -48,7 +48,7 @@ public:
     }
     bool name(const string x) const {
         if(!x.length() || x.length() > 30) return 0;
-        for(int i = 0; i < x.length(); i++) if(!valid1[x[i]]) return 0;
+        for(int i = 0; i < x.length(); i++) if(!valid2[x[i]]) return 0;
         return 1;
     }
     bool isbn(const string x) const {

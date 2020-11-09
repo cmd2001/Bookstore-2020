@@ -69,32 +69,34 @@ private:
             s1 = s.substr(0, i), s2 = s.substr(i + 1, s.length() - (i + 1));
             break;
         }
-        if(!checks2(s2)) return make_pair(0, make_pair(Key(0), ""));
-        if(s1 == "ISBN") {
+        if(s1 == "-ISBN") {
             if(!valid.isbn(s2.substr(1, s2.length() - 2))) return make_pair(0, make_pair(Key(0), ""));
             return make_pair(1, make_pair(iSbN, s2.substr(1, s2.length() - 2)));
         }
-        if(s1 == "name") {
-            if(!valid.name(s2.substr(1, s2.length() - 2))) return make_pair(0, make_pair(Key(0), ""));
-            return make_pair(1, make_pair(NAME, s2.substr(1, s2.length() - 2)));
-        }
-        if(s1 == "author") {
-            if(!valid.author(s2.substr(1, s2.length() - 2))) return make_pair(0, make_pair(Key(0), ""));
-            return make_pair(1, make_pair(AUTHOR, s2.substr(1, s2.length() - 2)));
-        }
-        if(s1 == "keyword") {
-            if(!valid.keyword(s2.substr(1, s2.length() - 2))) return make_pair(0, make_pair(Key(0), ""));
-            return make_pair(1, make_pair(KEYWORD, s2.substr(1, s2.length() - 2)));
-        }
-        if(s1 == "price") {
+        if(s1 == "-price") {
             if(!valid.price(s2.substr(1, s2.length() - 2))) return make_pair(0, make_pair(Key(0), ""));
             return make_pair(1, make_pair(PRICE, s2.substr(1, s2.length() - 2)));
         }
+
         if(!checks2(s2)) return make_pair(0, make_pair(Key(0), ""));
+
+        if(s1 == "-name") {
+            if(!valid.bookname(s2.substr(1, s2.length() - 2))) return make_pair(0, make_pair(Key(0), ""));
+            return make_pair(1, make_pair(NAME, s2.substr(1, s2.length() - 2)));
+        }
+        if(s1 == "-author") {
+            if(!valid.author(s2.substr(1, s2.length() - 2))) return make_pair(0, make_pair(Key(0), ""));
+            return make_pair(1, make_pair(AUTHOR, s2.substr(1, s2.length() - 2)));
+        }
+        if(s1 == "-keyword") {
+            if(!valid.keyword(s2.substr(1, s2.length() - 2))) return make_pair(0, make_pair(Key(0), ""));
+            return make_pair(1, make_pair(KEYWORD, s2.substr(1, s2.length() - 2)));
+        }
     }
     pair<bool, map<Key, string> > solve_arg(const vector<string> &v) {
         map<Key, string> ret;
         for(int i = 1; i < v.size(); i++) {
+            debug << v[i] << endl;
             auto t = solve_Core(v[i]);
             if(!t.first) return make_pair(0, map<Key, string>());
             ret.insert(t.second);
@@ -150,7 +152,10 @@ public:
                 else if(!core.select(sp[1].c_str())) Invalid();
             } else if(sp[0] == "modify") {
                 auto t = solve_arg(sp);
-                if(!t.first) Invalid();
+                if(!t.first) {
+                    debug << "unable to parse arguments" << endl;
+                    Invalid();
+                }
                 else {
                     if(!core.modify(t.second[iSbN].c_str(), t.second[NAME].c_str(), t.second[AUTHOR].c_str(), t.second[KEYWORD].c_str(), t.second[PRICE] == "" ? -1 : string2double(t.second[PRICE]))) Invalid();
                 }
@@ -192,7 +197,8 @@ public:
                     if(!t.first) Invalid();
                     else printf("%0.2f\n", t.second);
                 }
-            } else Invalid();
+            } else if(sp[0] == "exit" || sp[0] == "quit") break;
+            else Invalid();
         }
     }
 };
