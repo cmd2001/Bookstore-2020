@@ -102,12 +102,13 @@ struct Book {
     }
     vector<Other_Data> get_keywords() const {
         vector<Other_Data> ret;
-        for(int i = 0, j = 0, len = strlen(keyword); i < len; i = j) { // j is the first position after '|'.
-            while(i < len && keyword[i] != '|') ++i;
+        for(int i = 0, j, len = strlen(keyword); i < len;) { // j is the first position after '|'.
+            for(j = i; j < len && keyword[j] != '|'; ++j) ;
             Other_Data r2;
-            for(int k = 0; k < i - j; k++) r2.data[k] = keyword[j + k];
+            for(int k = 0; k < j - i; k++) r2.data[k] = keyword[i + k];
             memcpy(r2.ISBN, isbn, len_ISBN);
-            j = i + 1;
+            ret.push_back(r2);
+            i = j + 1;
         }
         return ret;
     }

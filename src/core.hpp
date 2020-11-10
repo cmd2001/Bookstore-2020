@@ -43,6 +43,7 @@ private:
         }
     }
     void add_book(const Book &book) {
+        // debug << "new book = " << book.isbn << " " << book.name << book.author << " " << book.keyword << " " << book.price << endl;
         db_book.insert(book.get_ISBN(), book);
 
         index_name.insert(book.get_name(), book.get_ISBN());
@@ -95,7 +96,7 @@ public:
     bool reg(const char* userid, const char* password, const char* name) {
         if(db_user.query(User_ID(userid)).first) return 0; // same userid.
         User_ID uid(userid);
-        User temp_User(userid, password, name, 0);
+        User temp_User(userid, password, name, 1);
         db_user.insert(uid, temp_User);
         return 1;
     }
@@ -131,7 +132,10 @@ public:
     bool modify(const char* isbn, const char* name, const char* author, const char* keyword, const double price) {
         if(get_cur_pri() < 3) return 0; // privilege error.
         if(select_stack.rbegin()->is_null()) return 0; // selected null book.
+        if(strlen(isbn) && db_book.query(ISBN(isbn)).first) return 0; // same isbn exists.
         auto book = db_book.query(*select_stack.rbegin()).second;
+
+        // debug << "old book = " << book.isbn << " " << book.name << " " << book.author << " " << book.keyword << " " << book.price << endl;
 
         erase_Book(*select_stack.rbegin());
 
@@ -148,6 +152,8 @@ public:
         if(strlen(author)) book.fill_author(author);
         if(strlen(keyword)) book.fill_keyword(keyword);
         if(price != -1) book.fill_price(price);
+
+        add_book(book);
 
         return 1;
     }
@@ -212,9 +218,9 @@ public:
         return make_pair(1, quantity * book.price);
     }
 
-    Bookstore(): db_book("db/db_book.bin"), index_name("db/index_name.bin"), index_author("db/index_author.bin"),
-                 index_keyword("db/index_keyword.bin"), db_user("db/db_user.bin"), db_finance("db/db_finance.bin"),
-                 db_metadata("db/db_metadata.bin") {
+    Bookstore(): db_book("storage_db_book.bin"), index_name("storage_index_name.bin"), index_author("storage_index_author.bin"),
+                 index_keyword("storage_index_keyword.bin"), db_user("storage_db_user.bin"), db_finance("storage_db_finance.bin"),
+                 db_metadata("storage_db_metadata.bin") {
         auto t = db_metadata.query(1);
         if(t.first) { // exists
             current_Opt = t.second;

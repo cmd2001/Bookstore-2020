@@ -21,7 +21,7 @@
 using namespace std;
 using __Amagi::database_cached; // B+ Tree with rb-tree cache.
 
-class Validator { // todo: input Validator
+class Validator {
 private:
     bool valid1[257], valid2[257], valid3[257];
 public:
@@ -72,7 +72,7 @@ public:
         return 1;
     }
     bool quantity(const string x) const {
-        if(!x.length() || x[0] == '0') return 0;
+        if(!x.length() || (x.length() != 1 && x[0] == '0')) return 0;
         for(int i = 0; i < x.length(); i++) if(x[i] < '0' || x[i] > '9') return  0;
         return 1;
     }

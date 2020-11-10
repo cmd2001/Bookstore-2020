@@ -70,15 +70,19 @@ private:
             break;
         }
         if(s1 == "-ISBN") {
-            if(!valid.isbn(s2.substr(1, s2.length() - 2))) return make_pair(0, make_pair(Key(0), ""));
-            return make_pair(1, make_pair(iSbN, s2.substr(1, s2.length() - 2)));
+            if(!valid.isbn(s2.substr(0, s2.length()))) return make_pair(0, make_pair(Key(0), ""));
+            return make_pair(1, make_pair(iSbN, s2.substr(0, s2.length())));
         }
         if(s1 == "-price") {
-            if(!valid.price(s2.substr(1, s2.length() - 2))) return make_pair(0, make_pair(Key(0), ""));
-            return make_pair(1, make_pair(PRICE, s2.substr(1, s2.length() - 2)));
+            if(!valid.price(s2.substr(0, s2.length()))) return make_pair(0, make_pair(Key(0), ""));
+            return make_pair(1, make_pair(PRICE, s2.substr(0, s2.length())));
         }
 
-        if(!checks2(s2)) return make_pair(0, make_pair(Key(0), ""));
+        if(!checks2(s2)) {
+            debug << "s2 = " << s2 << endl;
+            debug << "check s2 failed" << endl;
+            return make_pair(0, make_pair(Key(0), ""));
+        }
 
         if(s1 == "-name") {
             if(!valid.bookname(s2.substr(1, s2.length() - 2))) return make_pair(0, make_pair(Key(0), ""));
@@ -96,7 +100,6 @@ private:
     pair<bool, map<Key, string> > solve_arg(const vector<string> &v) {
         map<Key, string> ret;
         for(int i = 1; i < v.size(); i++) {
-            debug << v[i] << endl;
             auto t = solve_Core(v[i]);
             if(!t.first) return make_pair(0, map<Key, string>());
             ret.insert(t.second);
@@ -167,7 +170,7 @@ public:
                 if(sp.size() == 1) { // no arguments
                     auto ans = core.showall();
                     printBooks(ans);
-                } if(sp[1] == "finance") {
+                } else if(sp[1] == "finance") {
                     if(sp.size() > 3) Invalid();
                     else {
                         if(sp.size() == 3 && !valid.quantity(sp[2])) Invalid();
