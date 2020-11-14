@@ -1,0 +1,64 @@
+su root sjtu
+select 978-0-85912-411-9
+modify -author="StaceyMiddleton" -price=327.75
+logout
+register ighyI98f0jk5 qMJjWKsQZvX MistyJohnson
+register sY1XBr8oB4jo2zmoE1PVNBYB1Ee EV5KY7hCnVpjhBEaL4hXR12cMTYqjI ArthurJohnson
+select 978-0-7101-7795-7
+modify -name="aching" -author="StaceyMiddleton" -keyword="incise" -price=292.98
+su pLxld_NxJmPlMzyYfzMYd TEpEmi7Kp1LINCh79BB1GJ_T
+logout
+su Da1fck1aKg_IL cwjiyI8EUIPKBqUgEj
+buy 978-0-7300-9652-8 1
+select 978-0-7524-9505-7
+modify -name="nugget" -author="CrystalWyatt" -keyword="fascinate|pasha|nomenclature|abalone" -price=10.32
+passwd Da1fck1aKg_IL cwjiyI8EUIPKBqUgEj nFiKP75hXYHmYhS3Fn_x7z5wj
+buy 978-1-81041-751-6 1
+logout
+select 978-1-84560-187-4
+modify -name="hardhearted" -author="JeffreyJohnson" -keyword="potash|Leningrad|bathtub|enquire|diagrammatic" -price=74.57
+select 978-0-15-795940-6
+modify -name="derate" -author="JohnHartman" -keyword="nomenclature|encephalitis|potash|Sam|fascinate" -price=447.30
+su root sjtu
+useradd Z CzxVO__AQfwhQHrMd7lf00tDkK 3 TylerMaldonado
+delete JPlnxw6_l6ttwYoRpACTB6
+passwd HmkDv31ZkE0k2H46S6sXpF1uxeSuT w2eHnWNS9twZ
+useradd Tb2tZHNgBV oltiH_0eqcUKzpzxjmIAqxRPzP 1 WalterStone
+logout
+su DOoFGQxx3LHRPJdIzfvVo0DezQ aj2QYyzhLd6XluCWTTbEm7eovd
+select 978-0-17-141166-9
+import 11 565.05
+select 978-0-295-58026-5
+modify -name="debutante" -author="CrystalWyatt" -keyword="fascinate|Miguel" -price=226.61
+select 978-0-17-141166-9
+modify -name="stronghold" -keyword="pasha|laconic|Virginia|Engel|bathtub" -price=310.85
+useradd afeE5BWQC yDCPYHneoaiPlFzUuTuY4Z13 1 JenniferGoodwin
+select 978-1-956552-43-0
+modify -author="AndrewWilliams" -keyword="encephalitis|incise|laconic" -price=185.54
+useradd oLdT 15_q8q810FOGUa3 1 DanielMitchell
+logout
+select 978-0-08-349019-6
+modify -name="earring" -keyword="fascinate|Virginia|diagrammatic|diagrammatic" -price=212.35
+select 978-1-154-26731-0
+modify -name="still" -author="CatherineGutierrez" -keyword="ajar|Sam|Engel|ajar|gyp" -price=89.31
+register 8VmBANkJ8gdBWxm7s0WYuvsVKK9E p2QL0MUawFC JoshuaRaymond
+su ighyI98f0jk5 qMJjWKsQZvX
+select 978-1-58318-245-1
+modify -name="closeup" -author="WesleyGross" -keyword="barberry|acrylic|diagrammatic"
+buy 978-0-05-380194-6 1
+buy 978-1-81041-751-6 1
+buy 978-0-17-141166-9 1
+passwd root xVwIuN2oAwy259wxWLfknfDgIq1E3t CtLCuoLZQtvUnXO2HtY24mV
+select 978-0-17-141166-9
+modify -name="housebreak" -keyword="ajar|potash|bathtub" -price=24.17
+buy 978-1-956552-43-0 1
+buy 978-0-7300-9652-8 1
+logout
+su RxNz0G2 qEiO
+select 978-1-55318-710-3
+modify -name="bail" -author="CrystalWyatt" -price=140.26
+logout
+select 978-1-74899-039-6
+modify -name="immeasurable" -price=194.30
+select 978-1-7345587-6-0
+modify -name="apostasy" -author="WesleyGross" -keyword="barberry|barberry|fascinate" -price=314.16

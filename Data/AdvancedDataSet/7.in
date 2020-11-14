@@ -1,0 +1,95 @@
+su root ypuRC_q3iiBmia8QMLpOig
+logout
+su PXNrYHLPjUtUZLOIMLg04Hdd uVYrpyoGU4HR
+show -author="JenniferGarrett" -keyword="edgy"
+buy 978-0-16-105080-9 1
+select 978-0-14-523914-5
+modify -name="nightingale" -author="NatalieSimmons" -price=184.05
+logout
+select 978-1-115-25102-0
+modify -name="Chester" -author="JosephCox"
+select 978-1-325-67709-2
+modify -name="Texas"
+select 978-1-370-66623-2
+modify -name="erase" -author="SusanAdams" -keyword="Hewlett|transcript|lit|Scott"
+register vcCBx49WEFwCdxbIesG jYg5CcS6SPfVdklLQJZZ2pDd_9OY EdwinBoyd
+register NLgar e4EuhH_ GuyHernandez
+su dwYHjqmKkhdrf3WMP0A5owzbqTyw3 hVqIJwWa
+select 978-0-414-47489-5
+modify -price=197.33
+logout
+su _uP7k8AysnMHrMAID28_JC sa
+show -author="BrendaAlexander"
+select 978-0-07-897833-3
+modify -name="Hebrew" -author="WilliamJohnson" -keyword="transcript|improvisate|Bradbury|leatherneck|transcript" -price=245.46
+buy 978-1-79122-901-6 1
+select 978-0-511-12697-0
+modify -name="lynx" -author="JosephCox" -keyword="ray|perfectible|improvisate|Louisiana|lit" -price=346.41
+show -ISBN=978-1-224-56798-2
+passwd hqXSuNyM74PKPdqdZapxdu szGiE7vilYr8U MD8RvS2POR
+select 978-0-543-70317-0
+modify -name="tremolo" -author="DavidMartin" -keyword="transcript|ray" -price=392.87
+buy 978-0-7532-6096-8 1
+buy 978-1-60923-922-0 1
+select 978-1-870128-82-7
+modify -name="queer" -author="LauraFrancis" -keyword="improvisate|held|Buckley" -price=326.46
+buy 978-0-257-83707-9 1
+select 978-1-70954-300-5
+modify -name="footstep" -author="DavidMartin" -keyword="Laue|lit" -price=104.69
+show
+buy 978-0-263-68299-1 1
+show -author="AmyHamilton" -keyword="ray"
+select 978-1-932778-80-9
+modify -name="Conrad" -author="BradleyCarter" -keyword="edgy|Scott|transcript|Buckley|estuary" -price=313.99
+show -name="speculate" -author="JosephCox"
+buy 978-0-599-95283-6 1
+select 978-1-268-59113-4
+modify -author="WilliamJohnson" -keyword="lit|vixen|lit|expectant|perfectible"
+select 978-0-449-76486-2
+modify -name="greengrocer" -author="LauraFrancis" -keyword="binomial|Narbonne|perfectible|Scott" -price=440.36
+select 978-1-951015-22-0
+modify -keyword="held" -price=325.89
+buy 978-1-04-252099-2 1
+passwd cXoPXpkLIcrSmt Co 5taO3Nlyem1QKlROH9Vl17NE6
+show -author="BradleyCarter"
+logout
+su XIaDmmMH9hZ9ZoG70WPU7 9
+buy 978-0-449-76486-2 1
+passwd XIaDmmMH9hZ9ZoG70WPU7 9 zJEp9Wnd
+buy 978-1-115-25102-0 1
+show -name="succinct" -author="JacksonCaldwell" -keyword="forgiven"
+select 978-1-325-67709-2
+modify -author="WilliamJohnson" -keyword="Hewlett|Narbonne"
+passwd XIaDmmMH9hZ9ZoG70WPU7 zJEp9Wnd yCbCpyHB83eOz8WQ
+select 978-0-9914836-3-1
+modify -name="nimble" -author="LauraFrancis" -keyword="expectant|forgiven|servant|improvisate" -price=196.13
+show
+show -ISBN=978-1-280-66415-1 -name="Mickelson" -author="BradleyCarter"
+show -author="JenniferGarrett"
+logout
+select 978-1-01-060442-6
+modify -name="knobby" -author="AmyHamilton" -keyword="vixen|invariable|perfectible|Hewlett"
+su hqXSuNyM74PKPdqdZapxdu jQK
+show
+buy 978-0-07-897833-3 1
+buy 978-1-70469-455-9 1
+select 978-0-7197-5217-9
+modify -name="plectrum" -author="Dr.StevenMaldonadoPhD" -keyword="invariable|servant|vixen" -price=371.07
+select 978-1-4262-7271-4
+modify -name="shad" -author="SusanAdams" -keyword="Hewlett|leatherneck|perfectible|improvisate" -price=441.03
+show -ISBN=978-0-14-523914-5
+show -author="SusanAdams"
+show -keyword="perfectible"
+buy 978-1-119-68066-6 1
+show -ISBN=978-0-7197-5217-9 -author="Dr.StevenMaldonadoPhD"
+buy 978-1-224-56798-2 1
+select 978-0-617-78544-6
+modify -name="shipwreck" -author="JacksonCaldwell" -keyword="edgy|Laue" -price=349.33
+select 978-0-343-58520-4
+modify -name="Palmyra" -author="JacksonCaldwell" -keyword="binomial|Mackinac" -price=277.21
+buy 978-0-13-583389-6 1
+select 978-0-688-63033-1
+modify -name="jigsaw" -author="DavidMartin" -keyword="held|nor" -price=140.92
+select 978-1-363-49487-3
+modify -name="Vicksburg" -author="AmyHamilton" -keyword="Buckley" -price=319.99
+show -author="BradleyCarter" -keyword="binomial"

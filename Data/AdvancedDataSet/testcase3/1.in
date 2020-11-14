@@ -1,0 +1,55 @@
+su root sjtu
+useradd TY2DTw BUIvGmF 3 CarrieBender
+logout
+su root sjtu
+delete TY2DTw
+select 978-0-10-875747-1
+modify -name="revelry" -author="JacobWashington" -keyword="Jeffrey|Mohammed" -price=109.13
+passwd root WGsIGk8D5HJVmgbjecu
+logout
+register zdHg5x ORo DavidMurray
+register dUTG0ZtOlcmLwmJPFf TtsdolXhZzhQZnJuBzBVnvb NatashaBlack
+register fy6sSRYGxseFrTu9 ui0fyAMHyYXdM2zbh HeatherFranco
+register XzdefC q8fAFrSzcJ06JOUUnkOpF7dhGmV StephanieMckee
+su root WGsIGk8D5HJVmgbjecu
+logout
+su XzdefC q8fAFrSzcJ06JOUUnkOpF7dhGmV
+show -keyword="Mohammed"
+select 978-0-10-875747-1
+modify -name="diatonic" -author="JeanneConway" -keyword="q"
+buy 978-0-10-875747-1 1
+select 978-1-9838-2325-1
+modify -name="celluloid" -author="ShawnNorton" -keyword="prospectus|Chester|Chester|hammock" -price=129.20
+select 978-1-9838-2325-1
+modify -name="taillight" -author="ShawnNorton" -price=36.07
+buy 978-1-9838-2325-1 1
+buy 978-1-9838-2325-1 1
+select 978-1-972877-53-1
+modify -name="Marc" -author="LindaCoxDDS" -keyword="sergeant|permissible|sergeant|reminisce" -price=461.55
+logout
+su zdHg5x ORo
+buy 978-0-10-875747-1 1
+show -author="JeanneConway"
+select 978-1-937069-58-2
+modify -name="heuristic" -author="JosephJackson" -keyword="sergeant|scissor|prospectus" -price=277.00
+buy 978-0-10-875747-1 1
+select 978-0-526-85853-8
+modify -name="abstinent" -author="JosephJackson" -keyword="premise|hammock|commonality" -price=355.17
+show -name="diatonic" -author="JeanneConway"
+logout
+select 978-0-667-08919-8
+modify -name="grantee" -author="BenjaminChandler" -keyword="commonality|insightful|Marc|hammock" -price=122.13
+select 978-1-100-51299-0
+modify -name="picket" -author="JacobWashington" -keyword="insightful" -price=219.93
+su fy6sSRYGxseFrTu9 ui0fyAMHyYXdM2zbh
+buy 978-0-526-85853-8 1
+select 978-1-9838-2325-1
+modify -name="finny" -author="JosephJackson" -keyword="cavalier" -price=383.49
+logout
+su fy6sSRYGxseFrTu9 ui0fyAMHyYXdM2zbh
+buy 978-1-972877-53-1 1
+logout
+select 978-0-10-875747-1
+modify -name="slosh" -keyword="scissor|sergeant|Mohammed"
+su fy6sSRYGxseFrTu9 ui0fyAMHyYXdM2zbh
+buy 978-1-9838-2325-1 1

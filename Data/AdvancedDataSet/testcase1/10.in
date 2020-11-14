@@ -1,0 +1,59 @@
+su root sjtu
+logout
+register vB73n4Wwo0ajq7IRNi MxehHqc9QM SteveWalker
+su oYH M4mOl82q2k2tjO6FWX1syRSJ
+show -ISBN=978-1-05-482077-6 -author="WesleyGross"
+select 978-0-422-88800-4
+modify -name="Brock" -author="JeffreyJohnson" -keyword="Virginia|encephalitis|encephalitis|incise"
+buy 978-0-686-78615-3 1
+logout
+register zuCSXM_84iX_8_HHhnb 10VD SusanOrtega
+select 978-1-67523-492-1
+modify -author="JohnHartman" -keyword="Sam|Miguel|fascinate|potash|diagrammatic" -price=142.27
+su fj2Zl9Cwjl14Hi6vn9 7B6C8EE
+logout
+su fXGMCpMKY 2O
+buy 978-1-5313-0718-9 1
+select 978-0-85912-411-9
+modify -name="digram" -keyword="bathtub|enquire|nomenclature|Miguel|pasha" -price=170.15
+show -ISBN=978-0-7524-9505-7 -name="nugget" -author="CrystalWyatt" -keyword="abalone"
+buy 978-0-05-380194-6 1
+buy 978-0-8217-4810-7 1
+buy 978-0-19-113107-3 1
+buy 978-1-69428-201-9 1
+show -author="JohnHartman"
+show -name="vindictive" -keyword="gyp"
+show -author="JohnHartman"
+logout
+su hO0HW5OU7HEbU_up g3Ah5DwFb6qPcvO1
+show -name="vindictive" -author="TylerBowen"
+logout
+select 978-1-74899-039-6
+su NFIGW4S7tPSeAcYFOE66mWgV Ri3ZVE
+passwd NFIGW4S7tPSeAcYFOE66mWgV Ri3ZVE QLB_u7pjzV8qWmrgG
+logout
+select 978-0-445-72000-8
+modify -name="vertebral" -author="CatherineGutierrez" -keyword="fascinate|laconic|encephalitis|nomenclature" -price=324.24
+su AmxFeY4ZUKoXRzxzQEp079wtou7 _uP8qSDBsPhrj4fcKLyiwrt
+passwd AmxFeY4ZUKoXRzxzQEp079wtou7 _uP8qSDBsPhrj4fcKLyiwrt BayrtMb_Gcm947FhVkkdfCDE2KqBt
+show -author="AnthonyFord" -keyword="diagrammatic"
+logout
+su 98fZMmZbYUzYwmF_NZ I
+logout
+select 978-0-18-266798-7
+modify -name="mussel" -author="TylerBowen" -keyword="Engel|incise|potash|bathtub|pasha" -price=344.66
+su zsrWDBAYvqURKsauCpbKg8jKSDg mWPs9t67RRBroncUvqyv4u
+select 978-0-15-795940-6
+modify -name="suitor" -keyword="fascinate|laconic" -price=3.64
+select 978-1-82273-229-4
+modify -name="homework" -author="AndrewWilliams" -keyword="laconic|gyp|incise" -price=196.81
+buy 978-1-58696-742-0 1
+show
+select 978-1-351-34850-8
+modify -name="campaign" -author="TylerBowen" -keyword="fascinate|enquire|laconic|gyp|diagrammatic" -price=11.37
+show -keyword="ajar"
+select 978-0-17-141166-9
+modify -name="gannet" -price=338.76
+logout
+select 978-0-08-349019-6
+modify -name="bluegill" -author="AnthonyFord" -keyword="barberry|gyp|incise|Engel|fascinate" -price=474.79

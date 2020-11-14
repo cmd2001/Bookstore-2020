@@ -1,0 +1,91 @@
+su root sjtu
+select 978-0-8016-9210-9
+modify -name="c's" -author="JosephCox" -keyword="servant|expectant|improvisate" -price=274.86
+import 1 137.63
+logout
+register DC3vnXW59Y2OM7XZ zQhUMd2boUpQJ82Hk0C7 LeslieFletcher
+su DC3vnXW59Y2OM7XZ zQhUMd2boUpQJ82Hk0C7
+show -ISBN=978-0-8016-9210-9 -name="c's" -author="JosephCox" -keyword="servant"
+logout
+su DC3vnXW59Y2OM7XZ zQhUMd2boUpQJ82Hk0C7
+select 978-0-8016-9210-9
+modify -name="pie" -price=189.08
+buy 978-0-8016-9210-9 1
+show -name="pie" -keyword="expectant"
+select 978-0-13-583389-6
+modify -name="keep" -author="BrendaAlexander" -keyword="nor|lit" -price=308.16
+select 978-1-4085-4492-1
+modify -name="mestizo" -author="WilliamJohnson" -keyword="Bradbury" -price=448.24
+select 978-1-4085-4492-1
+modify -name="Livingston" -author="WilliamJohnson" -keyword="held|leatherneck|ray|vixen|Hewlett" -price=440.36
+select 978-1-08-914981-1
+modify -name="follicular" -author="DavidMartin" -keyword="expectant|transcript|nor" -price=97.82
+passwd DC3vnXW59Y2OM7XZ zQhUMd2boUpQJ82Hk0C7 Lfwrst9NnttgfukzF_5pr_WDn1U
+select 978-0-621-87136-4
+modify -name="insightful" -author="SusanAdams" -keyword="estuary|aforementioned" -price=75.17
+show
+buy 978-1-08-914981-1 1
+buy 978-1-4085-4492-1 1
+select 978-0-257-83707-9
+modify -name="conscience" -author="JenniferGarrett" -keyword="leatherneck|leatherneck|edgy" -price=284.50
+buy 978-0-621-87136-4 1
+buy 978-0-8016-9210-9 1
+show -author="WilliamJohnson"
+select 978-1-291-58842-2
+modify -name="liven" -author="LauraFrancis" -keyword="ray|edgy" -price=178.69
+logout
+select 978-0-252-70123-8
+modify -name="structural" -author="BradleyCarter" -keyword="estuary" -price=63.84
+register Y_zK3DFsM4u4TozWAS a4Ap0KNUAy5ZTD SarahRogers
+register cWVFQSG3y1pX2F9ddWmztv TvUGSkdWk_D RobertCampbell
+su Y_zK3DFsM4u4TozWAS a4Ap0KNUAy5ZTD
+select 978-0-257-83707-9
+modify -name="bisect" -keyword="Scott|servant"
+show -keyword="leatherneck"
+select 978-0-13-583389-6
+modify -name="Kabul" -author="WilliamJohnson" -keyword="binomial|expectant" -price=56.25
+buy 978-0-257-83707-9 1
+show -keyword="binomial"
+show -keyword="estuary"
+logout
+register Kgiy8FmNsl0RIoLPCjMQpzD5yv YAJ8ZdOxt7970_SB3P ChelseaZamora
+su cWVFQSG3y1pX2F9ddWmztv TvUGSkdWk_D
+select 978-1-291-58842-2
+modify -name="mightn't" -price=3.41
+buy 978-0-13-583389-6 1
+show -author="WilliamJohnson"
+show -name="Livingston" -author="WilliamJohnson"
+buy 978-0-13-583389-6 1
+logout
+su Y_zK3DFsM4u4TozWAS a4Ap0KNUAy5ZTD
+select 978-0-621-87136-4
+modify -name="sapiens" -author="LauraFrancis" -price=370.25
+select 978-0-17-188989-5
+modify -name="rainstorm" -author="JenniferGarrett" -keyword="Hewlett|Louisiana" -price=242.64
+select 978-0-7949-7314-8
+modify -name="hong" -author="Dr.StevenMaldonadoPhD" -keyword="aforementioned|Louisiana" -price=378.75
+logout
+select 978-0-7949-7314-8
+modify -name="sovereignty" -author="WilliamJohnson"
+su root sjtu
+passwd root lyb
+select 978-0-7949-7314-8
+modify -name="stray" -author="DonaldArmstrong" -keyword="servant|aforementioned|nor|binomial" -price=458.08
+useradd 4 4WggZZQP 3 PhyllisWeaver
+passwd root ypuRC_q3iiBmia8QMLpOig
+logout
+register nx Dgijnje MelanieSmith
+select 978-1-08-914981-1
+modify -name="property" -author="BradleyCarter" -keyword="transcript|ray|Hewlett|Louisiana|lit" -price=374.89
+select 978-1-74833-200-4
+modify -name="statesmen" -author="DavidMartin" -keyword="Buckley" -price=419.74
+su 4 4WggZZQP
+useradd Od8GgPD li8bA0_4y0uanQY2 1 DawnMorris
+logout
+select 978-0-257-83707-9
+modify -name="Heine" -author="Dr.StevenMaldonadoPhD" -price=111.53
+select 978-0-257-83707-9
+modify -name="Percy" -keyword="ray|Buckley|binomial" -price=413.38
+su nx Dgijnje
+show -keyword="ray"
+show -author="DavidMartin"

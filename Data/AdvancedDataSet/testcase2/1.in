@@ -1,0 +1,60 @@
+su root sjtu
+select 978-0-428-63751-4
+modify -name="simplex" -author="RachelHayes" -keyword="spearhead|Lena|ribosome|linger" -price=91.93
+logout
+su root sjtu
+logout
+su root sjtu
+select 978-1-69889-796-7
+modify -name="warty" -author="DonnaMiles" -keyword="pinxter|pseudo|refugee|spearhead" -price=207.32
+select 978-1-69889-796-7
+modify -name="cluck" -author="BarryBell" -keyword="ribosome|organic|Lena|Woodbury"
+useradd zEpGhJj6HnYfFtxBfXLh4s9R8ODOJR mLurugC8YnkfwmuE0SM6XYTj 1 DouglasGonzalez
+useradd DeiUKNDPcpY7_BV2cD v4Gt5RYkrSQBI 1 NinaJones
+passwd zEpGhJj6HnYfFtxBfXLh4s9R8ODOJR 4WEs1XFLFiNK1XG67Zbu5XR
+passwd zEpGhJj6HnYfFtxBfXLh4s9R8ODOJR E46ykb4ZY9txm3Z4lGh3EshbSVwj
+select 978-0-320-60622-9
+modify -name="cherish" -author="DonnaMiles" -keyword="ribosome|Woodbury|honeydew|organic" -price=60.08
+select 978-0-89865-345-8
+modify -name="stolen" -author="RobertJenkins" -keyword="linger|spearhead|take" -price=353.45
+logout
+su root sjtu
+logout
+select 978-0-89865-345-8
+modify -author="PaulSolis" -price=327.12
+su root sjtu
+select 978-0-89865-345-8
+modify -name="brash" -author="BarryBell" -keyword="organic|spearhead"
+passwd root S7HwHiIpUzzpaZ
+useradd HXvW1qxYKYqcJVACAoyJIiAJ7 G6Z77gNXoF6g3gQ 3 BarbaraTanner
+logout
+su DeiUKNDPcpY7_BV2cD v4Gt5RYkrSQBI
+buy 978-1-69889-796-7 1
+passwd HXvW1qxYKYqcJVACAoyJIiAJ7 dpql8Asf f0QtU2dxJ1iKgb6iRo6zX
+show -ISBN=978-0-320-60622-9 -name="cherish" -author="DonnaMiles" -keyword="honeydew"
+logout
+su zEpGhJj6HnYfFtxBfXLh4s9R8ODOJR mLurugC8YnkfwmuE0SM6XYTj
+show -author="BarryBell" -keyword="spearhead"
+logout
+su HXvW1qxYKYqcJVACAoyJIiAJ7 G6Z77gNXoF6g3gQ
+useradd q00hw3m7qVtHPelJaxzcU4lyjw HzlFBD4LR72B1sOKbs 1 KathleenTorres
+select 978-0-89865-345-8
+modify -name="Jung" -price=303.54
+import 8 2626.75
+useradd rkCuuOXc7GwP4mS WMtOJ4tZVi3ZBLR 1 SarahFoster
+logout
+su HXvW1qxYKYqcJVACAoyJIiAJ7 G6Z77gNXoF6g3gQ
+select 978-0-89865-345-8
+modify -author="ChristopherBarrera" -keyword="medley" -price=168.55
+useradd Vbk0ep3jUVf1pfbzuvai2Yg9elftb V5g72_FtEvkJXHQu_oVR 1 PatriciaGarcia
+import 10 1847.14
+logout
+su HXvW1qxYKYqcJVACAoyJIiAJ7 G6Z77gNXoF6g3gQ
+select 978-1-02-864375-2
+modify -name="travel" -author="SheriPeterson" -keyword="pinxter|Lena|honeydew" -price=161.03
+import 16 1312.71
+useradd zx0vG4gVvdYnoHlD5 UNPz 1 LindaEdwards
+logout
+su q00hw3m7qVtHPelJaxzcU4lyjw HzlFBD4LR72B1sOKbs
+select 978-1-69889-796-7
+modify -keyword="chromatography|inveigh" -price=364.94

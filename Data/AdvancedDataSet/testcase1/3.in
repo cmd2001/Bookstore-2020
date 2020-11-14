@@ -1,0 +1,62 @@
+su root sjtu
+select 978-1-64132-813-5
+modify -name="Alberta" -author="AndrewWilliams" -keyword="encephalitis|Virginia" -price=374.06
+select 978-1-956552-43-0
+modify -name="hermaphrodite" -author="AndrewWilliams" -keyword="Miguel" -price=385.26
+useradd zhu8NE6gkCAUpw7 WnfyKkBd0fuVi 3 ErinLewis
+useradd RxNz0G2 qEiO 1 AlexJenkins
+delete LLU3N06a601Gri8f5Ww30cgheM
+select 978-1-05-482077-6
+modify -name="butterball" -author="WesleyGross" -keyword="gyp|Engel" -price=331.55
+logout
+select 978-1-910512-42-5
+modify -name="Vreeland" -author="TylerBowen" -keyword="nomenclature|Leningrad" -price=53.54
+select 978-1-956552-43-0
+modify -author="WesleyGross" -keyword="Miguel|Virginia" -price=388.76
+select 978-0-937306-76-5
+modify -name="inebriate" -author="WesleyGross" -keyword="pasha|Leningrad" -price=238.32
+su Lj S6IL9EuqU2mKlcCEv614euXgI5i
+select 978-0-86427-971-2
+modify -name="Irene" -author="AndrewWilliams" -keyword="Leningrad|Sam|pasha|acrylic" -price=80.80
+select 978-0-08-495725-4
+modify -name="bookie" -keyword="nomenclature|pasha|bathtub" -price=467.54
+logout
+su AN2xktFC5Arcn7lxU HNugwp3UujrTU78u
+buy 978-0-7300-9652-8 1
+buy 978-1-874188-76-6 1
+select 978-1-69428-201-9
+modify -keyword="abalone"
+show -author="AndrewWilliams"
+show
+buy 978-0-86427-971-2 1
+logout
+su RxNz0G2 qEiO
+select 978-0-08-495725-4
+modify -author="StaceyMiddleton" -keyword="incise|encephalitis|barberry" -price=20.26
+select 978-0-08-349019-6
+modify -name="omega" -author="JeffreyJohnson" -keyword="laconic|acrylic|gyp|incise|Miguel" -price=73.37
+logout
+select 978-1-64132-813-5
+modify -name="perihelion" -author="WesleyGross" -keyword="Leningrad|gyp|pasha" -price=204.02
+su HmkDv31ZkE0k2H46S6sXpF1uxeSuT RBuVNrBPMOey15
+select 978-1-81041-751-6
+modify -name="contact" -author="AndrewWilliams" -keyword="pasha|barberry" -price=80.85
+select 978-0-545-90880-1
+modify -name="knockout" -author="AnthonyFord" -keyword="nomenclature|Sam|Sam|bathtub" -price=464.52
+select 978-1-74899-039-6
+modify -name="odorous" -author="JeffreyJohnson" -keyword="nomenclature|Virginia|ajar|potash" -price=464.69
+useradd HKqVEvrtUKSolm7ie5xKdZd1 WN 1 JeffreyBryant
+useradd tw8fw3HyaIWoEtr_lSm6p Eroax40rL 1 MeganFields
+select 978-0-361-73988-7
+modify -name="Icarus" -author="CatherineGutierrez" -keyword="encephalitis" -price=269.36
+select 978-1-74899-039-6
+modify -name="burden" -author="WesleyGross"
+useradd FYfmCa S 1 CynthiaFaulkner
+useradd Da1fck1aKg_IL cwjiyI8EUIPKBqUgEj 1 KristineMurphyDDS
+import 17 2782.25
+select 978-0-361-73988-7
+modify -author="CatherineGutierrez" -keyword="Leningrad" -price=35.43
+useradd JPlnxw6_l6ttwYoRpACTB6 GFkGgjVlk 1 DanielCline
+select 978-0-15-795940-6
+modify -name="Wallace" -author="AnthonyFord" -keyword="Leningrad|bathtub|Sam" -price=72.42
+import 3 100.21

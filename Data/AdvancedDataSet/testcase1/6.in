@@ -1,0 +1,63 @@
+su root sjtu
+select 978-0-86427-971-2
+modify -name="exhortation" -author="ChristopherEllis" -keyword="encephalitis|Sam|acrylic" -price=394.31
+logout
+register 3J2xdDi_fud jBtby_zIrFBt3xKBXEWqFXU4 NathanArmstrong
+select 978-1-956552-43-0
+modify -name="dollar" -author="ChristopherEllis"
+register zSTn9_l0CmfWrBf_SUqV3KBCQEc DczOtIMXuYJWvWnu TristanArmstrong
+su pLxld_NxJmPlMzyYfzMYd TEpEmi7Kp1LINCh79BB1GJ_T
+logout
+su r6BSXsWVFh4WJGcy72R yCpQTYS9DX4HlZVcwusMY
+passwd 8VmBANkJ8gdBWxm7s0WYuvsVKK9E p2QL0MUawFC 4hvLg_qtZxV_rBPikRrnp
+select 978-0-686-78615-3
+modify -name="attic" -author="JeffreyJohnson" -price=313.95
+select 978-0-19-113107-3
+modify -name="chalcocite" -author="StaceyMiddleton" -keyword="encephalitis|Engel" -price=341.98
+buy 978-0-85912-411-9 1
+show -name="Alberta" -author="AndrewWilliams"
+buy 978-1-81041-751-6 1
+buy 978-0-19-113107-3 1
+logout
+su NJ9o5Fc7N49 891O2RXNKvbuD
+select 978-1-64132-813-5
+modify -name="effusive" -keyword="pasha|encephalitis|incise|barberry"
+buy 978-0-08-349019-6 1
+select 978-0-15-795940-6
+modify -name="spoilage"
+passwd Da1fck1aKg_IL cJOzkC4Bo_xzf rpIe72WcrZjCSW6_puZYYArrvWw
+show -ISBN=978-0-85912-411-9 -name="gotten" -author="StaceyMiddleton" -keyword="potash"
+select 978-0-7466-2571-2
+modify -name="skiddy" -author="AnthonyFord" -keyword="Virginia|enquire|fascinate|barberry" -price=378.55
+select 978-1-874188-76-6
+modify -author="JeffreyJohnson" -price=318.26
+buy 978-1-81041-751-6 1
+show -keyword="barberry"
+select 978-1-72977-084-9
+modify -name="Wolfe" -author="JohnHartman" -keyword="Sam" -price=295.76
+select 978-0-7466-2571-2
+modify -name="composite" -author="AndrewWilliams" -price=461.15
+buy 978-0-19-113107-3 1
+buy 978-0-545-90880-1 1
+buy 978-1-58318-245-1 1
+select 978-0-9614784-4-5
+modify -name="audiotape" -author="JohnHartman" -keyword="Miguel|nomenclature|incise|diagrammatic|ajar" -price=311.75
+buy 978-0-7300-9652-8 1
+logout
+select 978-1-58697-593-7
+modify -name="oxcart" -author="WesleyGross" -keyword="enquire|nomenclature|enquire|abalone" -price=286.33
+su ZVWa6U4JyROjZBSCvpNxznQ zwe88oaZjGMCn0jt9pCT
+useradd N2laHInnQ21jk_oa VMb6OL8Dt5zGaCadZNBhIZYsxbWDu 1 JonathanCunningham
+useradd hO0HW5OU7HEbU_up g3Ah5DwFb6qPcvO1 1 SandraSmith
+select 978-1-64132-813-5
+import 14 3346.13
+useradd 4Obw ovV6 1 StevenSchneider
+useradd 2n_LM1SJx sNKSDP9LU_0_54oeGwXJzRnzpdTXk 1 MichaelCunningham
+useradd fXGMCpMKY 2O 1 JustinWoods
+logout
+register GP8cw4Pwi3Nd5heZRPR0UBFA4zd 49Zek_c MackenzieSmith
+su fj2Zl9Cwjl14Hi6vn9 7B6C8EE
+logout
+su HmkDv31ZkE0k2H46S6sXpF1uxeSuT RBuVNrBPMOey15
+select 978-1-5313-0718-9
+modify -name="befoul" -author="AnthonyFord" -keyword="ajar|laconic|barberry|Leningrad" -price=228.77

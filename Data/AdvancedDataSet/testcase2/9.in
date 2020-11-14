@@ -1,0 +1,69 @@
+su root sjtu
+delete 8PdpL48gMbIRO1xIQq30vJaRTOwP
+logout
+select 978-0-7528-5736-7
+modify -name="asymptote" -author="IanMorris" -keyword="sharecrop|organic|ignore|horrify" -price=325.02
+su Q55FeUs05DPHDvtq03qe6g nb3TJZ3a
+select 978-1-344-53407-9
+import 7 195.58
+useradd DYOGINtWtEWOMTm_OUD61l DjC2fCnWLP67lgeRmwqr9vhCt2NeR 1 JessicaCarpenter
+useradd Q6gWODQJM ATfYtPg7YVDD6ZBJoPKJGFd3hn 1 MichaelSmith
+select 978-0-15-892411-3
+modify -name="histochemic" -author="BarryBell" -keyword="spearhead" -price=415.37
+useradd FCYLckCzBAMTxqyVrm1Xy fBoDabCF4pSAnzVv0qISzFlm2MGg 1 BenjaminRamirez
+select 978-1-4935-6261-9
+modify -name="adjectival" -keyword="pseudo"
+logout
+su DYOGINtWtEWOMTm_OUD61l DjC2fCnWLP67lgeRmwqr9vhCt2NeR
+show -ISBN=978-1-4944-7499-7
+select 978-1-4440-3888-0
+modify -author="ChristopherBarrera" -keyword="medley" -price=271.28
+show -ISBN=978-1-184-90772-9 -author="MichelleStevens"
+select 978-1-69889-796-7
+modify -author="BarryBell"
+buy 978-0-15-892411-3 1
+buy 978-0-9557336-6-6 1
+select 978-1-71867-511-7
+modify -name="marble" -author="ScottLeon" -keyword="horrify" -price=70.94
+buy 978-1-68336-659-1 1
+select 978-0-344-76805-7
+modify -author="IanMorris" -price=358.90
+buy 978-1-68583-812-6 1
+logout
+select 978-0-380-12466-4
+modify -name="buttercup" -author="MichelleStevens"
+su 3gfrHtMUxZy0qzza3QGDNrlt thFPg4Y6ARewlU5Yw
+buy 978-0-9557336-6-6 1
+select 978-1-4440-3888-0
+modify -author="ChristopherBarrera" -price=376.16
+show -ISBN=978-1-337-40476-1 -name="eyeful" -keyword="Sol"
+select 978-1-68336-659-1
+modify -author="MichelleStevens" -price=109.81
+select 978-0-227-43959-3
+modify -author="RobertJenkins" -keyword="honeydew"
+buy 978-1-04-144650-7 1
+select 978-1-203-72491-7
+modify -name="quaver" -author="RachelHayes" -keyword="sharecrop|linger|inveigh" -price=64.50
+show -ISBN=978-0-344-76805-7 -author="IanMorris"
+buy 978-1-69889-796-7 1
+buy 978-1-337-40476-1 1
+select 978-1-68336-659-1
+modify -author="ScottLeon" -keyword="pinxter|Acapulco" -price=225.64
+select 978-1-04-144650-7
+modify -author="IanMorris" -keyword="chromatography|take|Sol|refugee" -price=67.80
+logout
+select 978-0-18-739461-1
+modify -name="caper" -keyword="chromatography|explosive|Woodbury"
+register JROIjiHGvKsxys3VCR97c70vyPdv XiLxhaoqc0zms TerriSmith
+register xe 08JD JeffreyWall
+select 978-0-256-43247-3
+modify -name="cornflower" -author="IanMorris" -keyword="pseudo" -price=170.86
+register wtU_YuWJN3z3hP09 JjQVGthI3k8M8_vqqm8Q TinaWright
+select 978-1-245-22669-1
+modify -name="emulate" -author="PaulSolis"
+register 9QFmBO w54ag24e9JQT8PNr6 LeahRandallMD
+register vjy7jgW_xfV2 BuRuew2s7IJ5kmfiSxVrFHUN AmberLove
+select 978-1-381-99095-1
+modify -name="Thompson" -author="BarryBell" -keyword="linger" -price=253.18
+select 978-1-878753-61-8
+modify -name="prehensile"

@@ -1,0 +1,56 @@
+su root sjtu
+logout
+su a7U5r0ojxR9dU3TcWfU EApMQOMmWszc4
+show -author="PaulSolis" -keyword="honeydew"
+select 978-1-4212-3965-1
+modify -name="potboil" -author="DonnaMiles" -keyword="pseudo|ribosome|ribosome|pseudo|honeydew" -price=236.80
+show -author="BarryBell" -keyword="inveigh"
+show -keyword="linger"
+buy 978-1-62897-896-4 1
+show -keyword="linger"
+logout
+su Q55FeUs05DPHDvtq03qe6g nb3TJZ3a
+logout
+select 978-1-62897-896-4
+modify -name="swingy" -author="BarryBell" -keyword="spearhead|Sol|Lena|Acapulco|Acapulco" -price=435.31
+su Qgessbg 8pq9UE72T1qZnxzrS45bMT
+show -author="IanMorris" -keyword="pseudo"
+buy 978-0-231-62945-4 1
+show -name="loquat" -author="ScottLeon" -keyword="organic"
+buy 978-1-69689-287-2 1
+show -ISBN=978-1-68336-659-1
+select 978-0-09-114804-1
+modify -name="lightface" -author="SheriPeterson" -keyword="Acapulco|explosive|medley|linger"
+show -ISBN=978-1-69689-287-2 -author="BarryBell"
+show -ISBN=978-1-69689-287-2 -name="windup"
+select 978-1-946148-07-0
+modify -name="lifeguard" -author="MichelleStevens" -keyword="spearhead" -price=314.08
+logout
+su 4zBGJbOxQj1pfqMDITY Tz3c
+logout
+su DYOGINtWtEWOMTm_OUD61l DjC2fCnWLP67lgeRmwqr9vhCt2NeR
+buy 978-1-62897-896-4 1
+buy 978-1-71867-511-7 1
+select 978-0-87980-740-5
+modify -name="hopple" -author="ScottLeon" -keyword="horrify|inveigh|refugee|horrify" -price=426.64
+logout
+register cbqiyMSAtQS xtdHgMjY CynthiaChapman
+su Pl BBGM
+logout
+register BPFd_JgRfCoEK w_ai8mFuMLJ4XhuF8h StevenErickson
+su qAGKcN2NEsVs0mMY0gB5cf J8ABb
+select 978-1-184-90772-9
+modify -keyword="pseudo|honeydew|chromatography|ribosome|sharecrop"
+show -author="DonnaMiles" -keyword="ribosome"
+select 978-1-62152-018-4
+modify -name="cryostat" -author="RachelHayes" -keyword="refugee" -price=157.39
+show -name="windup" -author="BarryBell"
+select 978-1-59032-597-1
+modify -name="Serpens" -author="PaulSolis" -keyword="medley|sharecrop" -price=344.02
+buy 978-1-184-90772-9 1
+buy 978-0-374-11136-6 1
+logout
+select 978-1-337-40476-1
+modify -price=407.57
+select 978-0-550-87646-1
+modify -author="IanMorris" -keyword="honeydew|take|Woodbury|ribosome|linger" -price=407.51

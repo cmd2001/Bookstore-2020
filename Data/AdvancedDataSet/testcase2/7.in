@@ -1,0 +1,67 @@
+su root sjtu
+passwd qAGKcN2NEsVs0mMY0gB5cf z3RUMlc
+delete zOIiIsKZ0RhI1nuQeU
+select 978-1-04-144650-7
+import 20 6081.75
+select 978-0-231-62945-4
+modify -name="librettist" -author="RobertJenkins" -keyword="Acapulco|take|chromatography|take" -price=492.71
+useradd C5EuOAJVVNBk2u gTUrlbnx4PvUPD 1 TonyPowers
+import 12 2876.45
+delete C5EuOAJVVNBk2u
+logout
+su Fk1egYkKk kVJrewqnAbDRw
+select 978-0-9516503-1-8
+modify -name="cultivate" -author="BarryBell" -keyword="Woodbury|spearhead|sharecrop|pseudo|horrify" -price=457.58
+select 978-1-61415-922-3
+modify -name="Dusenberg" -keyword="Sol|Lena|spearhead|chromatography" -price=350.98
+import 18 728.98
+useradd ZrlMd6aCJ2ul0Xe9 WRx1_frRPCm0EM0VbnHMgP 1 MelanieDavid
+useradd SbLFj0wHD1f MFcYt9hC 1 JadeWhite
+useradd 2G93x 6 1 JonathanMiller
+logout
+select 978-0-429-82114-1
+modify -name="hippo" -author="RachelHayes" -keyword="linger|explosive|honeydew|take|sharecrop" -price=164.98
+su root sjtu
+useradd faF5It84L ohp_KtBvtGk_5Urt9 1 AshleyMoore
+select 978-0-474-47351-7
+modify -keyword="organic|pinxter|horrify|organic" -price=464.57
+select 978-0-374-11136-6
+modify -name="game" -author="SheriPeterson" -keyword="explosive|spearhead|explosive" -price=271.50
+logout
+register vwGWEyNTU8zlAA3JUW1XE6H9z 3OwDGmKrMAVnytwZQ2JrJBFVdaZZt JacobHughes
+select 978-1-128-44377-1
+modify -name="keypunch" -author="SheriPeterson" -keyword="Acapulco" -price=178.52
+su ZrlMd6aCJ2ul0Xe9 WRx1_frRPCm0EM0VbnHMgP
+logout
+select 978-0-674-31506-8
+modify -name="cod" -author="RachelHayes" -keyword="organic|sharecrop|pinxter|medley|ribosome" -price=412.72
+select 978-0-472-96689-9
+modify -name="carryover" -author="DonnaMiles" -keyword="medley|explosive|refugee|pinxter|Sol" -price=101.27
+select 978-0-8108-9731-1
+modify -name="me" -author="BarryBell" -keyword="sharecrop|honeydew|Lena" -price=34.38
+su B4Pv2khWNTYg4 VNAPxy5f2
+useradd yBou98QsNXZE14JF7s Qc9 1 SheriValentine
+useradd I9itgViPOoIHngg821O8135u VUdClMV 1 TeresaKelley
+select 978-1-4593-3452-6
+modify -name="chloroplast" -author="IanMorris" -keyword="ignore" -price=137.09
+select 978-0-7004-4442-7
+modify -name="husky" -author="BarryBell" -keyword="Woodbury|horrify" -price=400.31
+import 19 8645.42
+useradd 3gfrHtMUxZy0qzza3QGDNrlt thFPg4Y6ARewlU5Yw 1 JamesSmith
+import 18 4740.68
+logout
+select 978-0-302-78056-5
+modify -name="nitride" -author="RachelHayes" -keyword="ribosome|spearhead|Acapulco|Sol|Acapulco" -price=44.72
+su X0wzBoV Hq
+logout
+su vwGWEyNTU8zlAA3JUW1XE6H9z 3OwDGmKrMAVnytwZQ2JrJBFVdaZZt
+select 978-1-916677-05-0
+modify -name="venerable" -author="ScottLeon" -keyword="honeydew|organic|sharecrop|ignore|explosive" -price=226.22
+logout
+select 978-0-577-47732-0
+modify -name="capacitance" -author="SheriPeterson" -keyword="Lena|ribosome|linger|ribosome|organic" -price=473.61
+register yzoLI3KZu6ws4 NLKP278FwTI RichardCross
+register Yajgl5rXtjF4d NCuox1SU2 BrianSmith
+su tVOWMFVketZFyk RJD9z
+show -author="DonnaMiles" -keyword="Woodbury"
+show -author="SheriPeterson" -keyword="explosive"
