@@ -1,0 +1,61 @@
+su root sjtu
+select 978-1-5198-7169-5
+modify -name="episcopal" -author="WesleyGross" -keyword="Leningrad|abalone" -price=297.20
+useradd hDfDQscKxkYTDYNds7SkTIjCa8DEE b56IInu4M5Wj92HLcAn 1 MadisonZuniga
+import 17 5598.84
+useradd xUAncidDYqfxWGqP 1lRm8KXu6 1 LisaChavez
+useradd 98fZMmZbYUzYwmF_NZ I 3 NicholasMarsh
+select 978-1-5157-4824-3
+modify -name="Sisyphean" -author="JohnHartman" -keyword="gyp|ajar|abalone|enquire" -price=203.11
+select 978-1-84510-592-1
+modify -name="Floyd" -author="JohnHartman" -keyword="pasha|acrylic|Virginia|Leningrad|incise" -price=394.05
+delete 2n_LM1SJx
+passwd 4Obw w_oeUdPk62Emda3gWpZQa
+useradd R_VQvJry2f064oHtZSv5UIrUPRFZI j9WCI2mAFUfyi 1 ElizabethMills
+passwd GP8cw4Pwi3Nd5heZRPR0UBFA4zd mmOYUTd7mcQ8N4D
+useradd Dlbz8p_Gt0nqI3mH83xy A43jWWJpc2zmzJvcgF 1 TaraOlson
+select 978-1-333-42596-8
+modify -name="saucy" -author="CatherineGutierrez" -keyword="ajar|diagrammatic" -price=427.89
+import 6 1292.58
+select 978-1-5126-5849-1
+modify -name="mulberry" -author="CatherineGutierrez" -keyword="Virginia|Leningrad|enquire|Engel" -price=130.43
+delete RxNz0G2
+useradd t1 4PAmyf9vupYqV 1 DavidHill
+select 978-0-264-29219-9
+modify -name="sevenfold" -author="AnthonyFord" -keyword="ajar|incise|abalone|acrylic" -price=186.85
+logout
+select 978-1-5313-0718-9
+modify -name="shrimp" -author="CrystalWyatt" -keyword="Engel|Leningrad|abalone" -price=129.42
+select 978-0-7466-2571-2
+modify -name="object" -author="JohnHartman" -keyword="abalone|diagrammatic|incise|Leningrad" -price=388.90
+select 978-0-651-93922-5
+modify -name="Nathan" -author="ChristopherEllis" -keyword="encephalitis|ajar|acrylic|abalone" -price=242.96
+register Dg KBGq3u_bEw4ETCR2KLv AmyGonzales
+su ighyI98f0jk5 qMJjWKsQZvX
+select 978-1-874188-76-6
+modify -name="Mabel" -author="TylerBowen" -keyword="pasha|ajar" -price=200.78
+select 978-1-4372-0267-0
+modify -name="concerto" -author="TylerBowen" -keyword="enquire|bathtub|acrylic|barberry" -price=419.19
+show -name="knockout"
+logout
+su bOOaD NQgt1VcoT
+select 978-0-7466-2571-2
+modify -name="cedar" -keyword="acrylic" -price=431.25
+show -name="closeup" -author="WesleyGross"
+show -author="AnthonyFord" -keyword="laconic"
+buy 978-1-69428-201-9 1
+buy 978-1-05-482077-6 1
+logout
+su Dlbz8p_Gt0nqI3mH83xy A43jWWJpc2zmzJvcgF
+show -ISBN=978-0-9614784-4-5 -author="JohnHartman"
+show -name="housebreak" -author="WesleyGross"
+logout
+select 978-0-295-58026-5
+modify -name="doubt" -author="CrystalWyatt" -price=138.03
+su 4Obw ovV6
+logout
+su r6BSXsWVFh4WJGcy72R yCpQTYS9DX4HlZVcwusMY
+buy 978-0-264-29219-9 1
+select 978-1-58318-245-1
+modify -author="CatherineGutierrez" -keyword="encephalitis|encephalitis|potash|pasha"
+buy 978-0-295-58026-5 1

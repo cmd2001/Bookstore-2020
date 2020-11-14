@@ -1,0 +1,62 @@
+su root sjtu
+useradd nlU83KlZpFQ3PKalidDRxFNRQ4ih poTqFn_dO2eJ7NSzq3aZ1m 1 PaulaFox
+useradd XEfb_yX0yS_ 1QwhK 3 ElizabethCollins
+passwd XEfb_yX0yS_ k6FMOKKEfnmyoOhkwLc
+select 978-1-69689-287-2
+modify -name="windup" -author="BarryBell" -keyword="Acapulco|medley|organic|medley|Lena" -price=204.42
+select 978-0-344-76805-7
+modify -name="nominee" -author="BarryBell" -keyword="take|inveigh" -price=204.97
+select 978-1-4944-7499-7
+modify -name="scoria" -author="DonnaMiles" -keyword="refugee|linger|Woodbury|ribosome|linger" -price=311.47
+useradd ie0 VJzhNCV9kJl1ep5lg 1 AaronThornton
+import 5 72.38
+logout
+su Vbk0ep3jUVf1pfbzuvai2Yg9elftb V5g72_FtEvkJXHQu_oVR
+select 978-0-320-60622-9
+modify -name="linseed" -author="SheriPeterson" -keyword="ignore|Sol" -price=387.24
+show -author="BarryBell" -keyword="medley"
+select 978-1-68583-812-6
+modify -name="urushiol" -author="MichelleStevens" -keyword="inveigh|take|honeydew" -price=205.71
+logout
+su BBplQ7DzaqgL_DQA8p Sr
+select 978-1-62897-896-4
+modify -name="probabilist" -author="RachelHayes"
+buy 978-1-69889-796-7 1
+show -author="BarryBell"
+logout
+select 978-0-344-76805-7
+modify -price=145.66
+register wdf83xGKKXcwAQL0DDvx9YWh FzxZMvz MatthewLeonard
+select 978-1-394-64704-0
+modify -name="splotchy" -author="DonnaMiles" -keyword="Lena" -price=233.17
+register ENoCvN 7SXsAo YvetteMitchell
+select 978-0-89865-345-8
+modify -name="sib" -author="MichelleStevens"
+register K3dTQkNpfbYT9cG2w L_rmPF2b KaylaHawkins
+su root sjtu
+select 978-0-320-60622-9
+modify -name="morpheme" -author="RobertJenkins" -keyword="linger|Lena|pseudo"
+select 978-0-344-76805-7
+modify -name="FTC" -author="IanMorris" -keyword="take|pinxter|ignore|medley|ribosome" -price=96.21
+useradd zOIiIsKZ0RhI1nuQeU saXxtoycwYxn4oqvj9 1 AnnaNavarro
+delete q00hw3m7qVtHPelJaxzcU4lyjw
+select 978-1-61415-922-3
+modify -name="connoisseur" -author="MichelleStevens" -keyword="honeydew|linger|Woodbury|organic|Sol" -price=110.67
+useradd oTGI_MwG7Prl7sA hbd7ZWJsQUl6u 1 DevinSherman
+delete XEfb_yX0yS_
+select 978-1-66291-651-9
+modify -name="along" -author="RachelHayes" -keyword="Sol|sharecrop|honeydew|explosive" -price=108.28
+delete HXvW1qxYKYqcJVACAoyJIiAJ7
+logout
+select 978-0-85766-153-1
+modify -name="gangland" -author="MichelleStevens" -keyword="organic|refugee|ribosome|refugee" -price=359.12
+select 978-0-320-60622-9
+modify -keyword="chromatography|refugee|sharecrop"
+register 4zBGJbOxQj1pfqMDITY Tz3c JamesGolden
+su zOIiIsKZ0RhI1nuQeU saXxtoycwYxn4oqvj9
+buy 978-1-02-864375-2 1
+select 978-1-68336-659-1
+modify -name="caddy" -author="MichelleStevens" -keyword="explosive|Acapulco|Woodbury|ignore|horrify" -price=461.70
+buy 978-1-68583-812-6 1
+buy 978-1-02-864375-2 1
+passwd 4zBGJbOxQj1pfqMDITY VbJ6ROTWNIJ0jaBscoY0DZ RMS8_8Nku7c6HCUzXMVZvpaf16

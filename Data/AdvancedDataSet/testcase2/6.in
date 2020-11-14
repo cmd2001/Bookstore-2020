@@ -1,0 +1,59 @@
+su root sjtu
+logout
+su zEpGhJj6HnYfFtxBfXLh4s9R8ODOJR mLurugC8YnkfwmuE0SM6XYTj
+select 978-0-9557336-6-6
+modify -name="gusty" -author="IanMorris" -keyword="refugee" -price=332.92
+passwd zEpGhJj6HnYfFtxBfXLh4s9R8ODOJR KiBj krXy56cLiBpj
+passwd qAGKcN2NEsVs0mMY0gB5cf ZMuiMJ7O4prlodJ RpbjN59CZHmnDhlxShCIFWLLx0dq
+buy 978-1-02-864375-2 1
+logout
+register Fxr9 D HectorYoung
+select 978-1-74756-497-0
+modify -name="Jessica" -keyword="pinxter|spearhead|explosive|spearhead"
+select 978-1-61415-922-3
+modify -name="highland" -author="RobertJenkins" -keyword="horrify|pinxter|organic|linger"
+su I G04UJutEGLKBrq5AVHJa
+select 978-1-362-71223-7
+modify -name="scavenge" -keyword="ignore"
+select 978-1-203-72491-7
+modify -name="extroversion" -author="IanMorris" -keyword="take|ignore|sharecrop|linger" -price=208.81
+show -author="MichelleStevens" -keyword="take"
+buy 978-1-878753-61-8 1
+buy 978-1-362-71223-7 1
+show -author="MichelleStevens" -keyword="explosive"
+select 978-0-474-47351-7
+modify -name="genii" -author="PaulSolis" -keyword="take|Sol|linger|ribosome" -price=222.19
+buy 978-1-245-22669-1 1
+logout
+su 4zBGJbOxQj1pfqMDITY Tz3c
+show -author="IanMorris" -keyword="ignore"
+select 978-0-561-13144-3
+modify -name="nectary" -keyword="Lena|linger" -price=0.60
+show -author="RachelHayes" -keyword="linger"
+show -name="chic" -author="MichelleStevens" -keyword="organic"
+select 978-1-184-90772-9
+modify -name="thousand" -author="MichelleStevens" -keyword="pseudo|linger|Sol|Acapulco|pseudo" -price=436.58
+show -ISBN=978-1-02-864375-2 -name="travel" -author="SheriPeterson"
+buy 978-0-9557336-6-6 1
+buy 978-0-89865-345-8 1
+logout
+su a7U5r0ojxR9dU3TcWfU EApMQOMmWszc4
+select 978-1-61415-922-3
+modify -name="fall" -author="DonnaMiles" -keyword="ribosome|sharecrop|pseudo"
+logout
+su oTGI_MwG7Prl7sA hbd7ZWJsQUl6u
+select 978-1-61415-922-3
+modify -author="MichelleStevens" -price=33.38
+show -author="PaulSolis"
+show -ISBN=978-1-878753-61-8 -author="ScottLeon" -keyword="horrify"
+logout
+su DeiUKNDPcpY7_BV2cD v4Gt5RYkrSQBI
+logout
+su DeiUKNDPcpY7_BV2cD v4Gt5RYkrSQBI
+select 978-1-4440-3888-0
+modify -name="barge" -author="IanMorris" -keyword="ribosome" -price=185.01
+logout
+select 978-1-63947-509-4
+modify -name="complementarity" -author="BarryBell" -keyword="organic|Acapulco" -price=265.34
+select 978-1-878753-61-8
+modify -name="birefringent" -price=409.46

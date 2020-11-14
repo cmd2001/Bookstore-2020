@@ -1,0 +1,64 @@
+su root sjtu
+passwd root 6gShW4Jr5BON9U7GYhCPXGl
+useradd bOOaD xFt6qbHvDeE7 1 SeanGreer
+select 978-1-67387-495-2
+modify -name="v's" -author="ChristopherEllis" -keyword="Engel|barberry|bathtub|Miguel|incise" -price=404.69
+useradd FDs bZ0dFXIu5EARZ 1 BriannaRamos
+useradd DOoFGQxx3LHRPJdIzfvVo0DezQ aj2QYyzhLd6XluCWTTbEm7eovd 3 DavidAnderson
+useradd e8BXvNQPYaR YzzDYWBP 3 CherylDavidPhD
+logout
+select 978-1-340-81579-0
+modify -name="Boca" -author="CrystalWyatt" -keyword="Engel" -price=221.43
+register i20vLpfTTU8a5ieD5XHWh5Tr h SaraReynolds
+register 1pJA0IW6aNwdbvZ bqOtXh2fHUNT ChristopherMcdonald
+select 978-1-67387-495-2
+modify -name="Harriman" -author="TylerBowen"
+select 978-1-67387-495-2
+modify -name="absolve" -price=426.39
+su DOoFGQxx3LHRPJdIzfvVo0DezQ aj2QYyzhLd6XluCWTTbEm7eovd
+logout
+su i20vLpfTTU8a5ieD5XHWh5Tr h
+passwd i20vLpfTTU8a5ieD5XHWh5Tr h SQMZ7KA
+select 978-0-686-78615-3
+modify -name="Vinci" -author="JohnHartman" -keyword="ajar" -price=243.24
+logout
+su bOOaD xFt6qbHvDeE7
+show
+select 978-0-686-78615-3
+modify -author="ChristopherEllis" -keyword="laconic" -price=106.14
+passwd bOOaD xFt6qbHvDeE7 NQgt1VcoT
+select 978-1-69428-201-9
+modify -name="soulful" -author="JohnHartman" -keyword="Engel" -price=290.49
+show -ISBN=978-1-67387-495-2 -author="ChristopherEllis"
+buy 978-0-686-78615-3 1
+logout
+select 978-1-69428-201-9
+modify -name="hydrometer" -price=446.83
+select 978-1-69428-201-9
+modify -name="Eurydice" -author="CrystalWyatt" -keyword="fascinate" -price=63.23
+su FDs bZ0dFXIu5EARZ
+buy 978-1-69428-201-9 1
+logout
+register pLxld_NxJmPlMzyYfzMYd HFIc MaryLawrence
+select 978-0-686-78615-3
+modify -name="kodak" -keyword="acrylic|bathtub|fascinate|diagrammatic|ajar" -price=445.80
+select 978-0-686-78615-3
+modify -author="CrystalWyatt" -keyword="diagrammatic|bathtub"
+su e8BXvNQPYaR YzzDYWBP
+select 978-1-69428-201-9
+modify -name="long"
+import 17 2671.59
+useradd fj2Zl9Cwjl14Hi6vn9 7B6C8EE 1 GeorgeMatthews
+useradd lkXwAkH1oz7MB1q0ZAyK1I9e 6v4rJEc9huQbu_rZvNf 1 CharlesWilliams
+select 978-1-69428-201-9
+modify -keyword="abalone|laconic|barberry|potash|Virginia"
+useradd Lj S6IL9EuqU2mKlcCEv614euXgI5i 1 MatthewFord
+useradd wrg F4Heo80EJuX 1 EricaDrake
+select 978-1-67387-495-2
+modify -name="Barnett" -author="AnthonyFord" -price=71.53
+useradd zsrWDBAYvqURKsauCpbKg8jKSDg mWPs9t67RRBroncUvqyv4u 1 ArielGarcia
+useradd 6IVyHxPpfJ_RcBlFiFlwq8BrWK F 1 ScottVang
+useradd AfK_uwmvDA0BmIYVqnfSUU zIAwfaK9i754MW 1 SaraPerez
+useradd LLU3N06a601Gri8f5Ww30cgheM cqWDlMXUeFVulNHO0_bs9Zi 1 ChristopherPatel
+useradd lrHM9wcy4dGI otyYxhSKXITZSxU43iyYVR00 1 SharonFrazier
+useradd AN2xktFC5Arcn7lxU HNugwp3UujrTU78u 1 VincentLong

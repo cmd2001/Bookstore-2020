@@ -1,0 +1,48 @@
+su root WGsIGk8D5HJVmgbjecu
+useradd KZHNOc0 FFQaBE6FxmmYLeFSSmINmoRYH46bQ 3 DennisDavenport
+delete 0rfjTBsQjn1uYyGwmo_oCJWaoS36
+delete zdHg5x
+import 10 1688.58
+logout
+register DY dWPE CarolBlake
+su root WGsIGk8D5HJVmgbjecu
+select 978-1-937069-58-2
+modify -name="chateau" -keyword="prospectus|buffalo"
+import 7 983.84
+delete BK
+passwd s4WJG1poQ2juxad 2zr5NrVkQoHnI69EBmorua1
+delete U_nsJbfn0OqiU
+select 978-0-526-85853-8
+modify -name="phlox"
+logout
+su IfqnlsAlt58hQfYGXmGyv 56jjJAlmd1hIWaDkcZPdIoOfjrifv
+buy 978-0-526-85853-8 1
+passwd IfqnlsAlt58hQfYGXmGyv 56jjJAlmd1hIWaDkcZPdIoOfjrifv jS5KLVfEEGghHxTaYceIu
+show -author="JeanneConway"
+passwd IfqnlsAlt58hQfYGXmGyv jS5KLVfEEGghHxTaYceIu _139yClCO2rez6yZr_4yH3DNLFOzMs
+buy 978-1-9838-2325-1 1
+buy 978-0-11-782815-5 1
+logout
+su C7xobJVV2k3suOwJk yQ5ZqQ5XWl
+logout
+su ynVXRZtCRrXTvkfG_vAh4N1blRII XEY4KNmSvV4gFgl6_hsVGbQ
+buy 978-1-9838-2325-1 1
+buy 978-0-437-20887-3 1
+select 978-0-437-20887-3
+modify -name="inexorable" -author="ShawnNorton" -price=344.68
+show
+show -ISBN=978-0-11-782815-5 -author="JoseMonroe"
+show -name="rumen" -author="JacobWashington"
+show -author="JeanneConway" -keyword="reminisce"
+select 978-1-275-90493-4
+modify -name="groundhog" -author="SarahGoodwin" -keyword="Chester" -price=479.35
+buy 978-0-437-20887-3 1
+select 978-0-7428-6992-9
+modify -name="jagging" -author="JeanneConway" -keyword="buffalo|insightful" -price=285.94
+buy 978-1-972877-53-1 1
+buy 978-1-275-90493-4 1
+passwd ynVXRZtCRrXTvkfG_vAh4N1blRII KC5XRFxhBJTZcBI DPLaLY4nV_z3BaiCDM0VRl0v8zn
+show -author="JoseMonroe"
+show -keyword="prospectus"
+logout
+su s4WJG1poQ2juxad 2zr5NrVkQoHnI69EBmorua1

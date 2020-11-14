@@ -1,0 +1,66 @@
+su root sjtu
+passwd zOIiIsKZ0RhI1nuQeU yZ2rcf6afdj4KUVhJIe_JsJ6
+import 12 1015.33
+select 978-0-428-63751-4
+modify -author="SheriPeterson" -keyword="organic|organic|horrify|Woodbury|medley"
+delete K3dTQkNpfbYT9cG2w
+select 978-1-66291-651-9
+modify -author="SheriPeterson" -keyword="Sol|linger" -price=420.03
+useradd EGc_ZZyvjk7RPFRgH zz1qkX5kYVJAO 3 AngelaPetty
+useradd qAGKcN2NEsVs0mMY0gB5cf J8ABb 1 CristinaAllen
+select 978-1-4935-6261-9
+modify -name="killdeer" -author="IanMorris" -keyword="spearhead" -price=197.49
+logout
+select 978-0-320-60622-9
+modify -name="Belgian" -author="ChristopherBarrera" -keyword="Woodbury" -price=216.66
+select 978-1-61415-922-3
+modify -name="duel" -author="RachelHayes" -price=354.69
+select 978-1-85925-214-7
+modify -name="Nazism" -author="BarryBell" -keyword="medley|chromatography|take|Acapulco|linger" -price=188.96
+su 8I hg6bunMfSeejKWgHxjmiPA_OJxHBrl
+buy 978-1-66291-651-9 1
+select 978-1-878753-61-8
+modify -name="obtrude" -author="ScottLeon" -keyword="medley|horrify" -price=152.54
+show -keyword="Sol"
+buy 978-1-4944-7499-7 1
+buy 978-1-69889-796-7 1
+buy 978-1-02-864375-2 1
+show -ISBN=978-1-68336-659-1 -author="MichelleStevens"
+show -ISBN=978-1-68336-659-1 -keyword="explosive"
+show -author="RachelHayes" -keyword="ignore"
+buy 978-0-320-60622-9 1
+select 978-0-550-87646-1
+modify -name="armament" -author="RobertJenkins" -keyword="take|spearhead|linger" -price=455.75
+show -author="SheriPeterson" -keyword="Lena"
+select 978-1-74756-497-0
+modify -name="bluestocking" -author="RobertJenkins" -keyword="inveigh|Woodbury|refugee|refugee" -price=103.49
+select 978-1-04-144650-7
+modify -name="astonish" -author="RobertJenkins" -keyword="honeydew" -price=282.03
+buy 978-1-4935-6261-9 1
+buy 978-0-89865-345-8 1
+select 978-0-89865-345-8
+modify -name="Perle" -author="ScottLeon" -keyword="refugee|Sol|Sol|horrify" -price=191.51
+buy 978-1-69889-796-7 1
+logout
+su oTGI_MwG7Prl7sA hbd7ZWJsQUl6u
+logout
+register HVmvQA ewqts CarolynAnderson
+register a7U5r0ojxR9dU3TcWfU EApMQOMmWszc4 MichaelStone
+select 978-1-74756-497-0
+modify -name="announce" -author="ScottLeon" -keyword="Sol|linger|refugee" -price=63.00
+select 978-1-64312-970-9
+modify -name="contestant" -author="RobertJenkins" -keyword="chromatography|Lena" -price=52.43
+select 978-0-561-13144-3
+modify -author="RachelHayes" -price=154.89
+register b6osU6 eD KathyJones
+su I cmSupmp8AmMG5S8Mc
+buy 978-0-89865-345-8 1
+passwd I cmSupmp8AmMG5S8Mc G04UJutEGLKBrq5AVHJa
+logout
+select 978-0-550-87646-1
+modify -keyword="ribosome|Woodbury|spearhead|honeydew" -price=96.44
+su qAGKcN2NEsVs0mMY0gB5cf J8ABb
+select 978-0-320-60622-9
+modify -keyword="ignore|medley|horrify|medley|pseudo" -price=88.41
+select 978-0-428-63751-4
+modify -price=432.62

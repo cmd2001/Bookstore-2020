@@ -1,0 +1,59 @@
+su root sjtu
+passwd zx0vG4gVvdYnoHlD5 Wh
+useradd WNpfgmWfmr0pX ctGb1pdHAtympA5lUm06vDG9o8jk 1 KaraRobles
+delete WNpfgmWfmr0pX
+logout
+su rkCuuOXc7GwP4mS WMtOJ4tZVi3ZBLR
+select 978-0-428-63751-4
+modify -name="heuristic" -keyword="horrify|explosive|spearhead|explosive"
+show -author="SheriPeterson" -keyword="Lena"
+select 978-0-380-12466-4
+modify -name="neutronium" -author="IanMorris" -keyword="honeydew|Sol|pinxter|ignore|organic" -price=64.71
+buy 978-0-320-60622-9 1
+select 978-0-561-13144-3
+modify -name="ami" -author="PaulSolis" -keyword="ignore|take" -price=100.82
+logout
+select 978-0-428-63751-4
+modify -name="opposition" -author="RobertJenkins" -keyword="medley|honeydew|take|organic" -price=301.60
+su HXvW1qxYKYqcJVACAoyJIiAJ7 G6Z77gNXoF6g3gQ
+logout
+su rkCuuOXc7GwP4mS WMtOJ4tZVi3ZBLR
+select 978-1-69889-796-7
+modify -name="creaky" -author="IanMorris" -keyword="spearhead|inveigh|ignore|Sol"
+logout
+su q00hw3m7qVtHPelJaxzcU4lyjw HzlFBD4LR72B1sOKbs
+buy 978-0-89865-345-8 1
+show -author="PaulSolis" -keyword="take"
+logout
+register ORLuc8jWHH iSni KennethWhite
+register BBplQ7DzaqgL_DQA8p Sr MeganHoward
+select 978-0-428-63751-4
+modify -name="egress" -author="PaulSolis" -keyword="inveigh|Acapulco|pseudo|inveigh"
+su q00hw3m7qVtHPelJaxzcU4lyjw HzlFBD4LR72B1sOKbs
+select 978-1-69889-796-7
+modify -name="Coffey" -author="PaulSolis" -price=351.25
+show -name="cherish" -author="DonnaMiles"
+passwd q00hw3m7qVtHPelJaxzcU4lyjw HzlFBD4LR72B1sOKbs R_LNJAwsfZ8Tig6syhexT
+logout
+register L2zqUYfCsvA SwlX4JtgFqM220Ts282swHGpTvq_kJ AlexHernandez
+select 978-0-320-60622-9
+modify -author="MichelleStevens" -keyword="Woodbury" -price=293.65
+register I cmSupmp8AmMG5S8Mc NicholasBaker
+register 8I hg6bunMfSeejKWgHxjmiPA_OJxHBrl DennisThompson
+su HXvW1qxYKYqcJVACAoyJIiAJ7 G6Z77gNXoF6g3gQ
+useradd tp_JCCkUcMlV1 J_6y 1 ThomasMccoy
+logout
+select 978-1-348-54892-8
+modify -name="visitor" -author="SheriPeterson" -keyword="spearhead|horrify|pseudo|linger|Acapulco" -price=255.20
+select 978-1-69889-796-7
+modify -author="PaulSolis" -keyword="refugee"
+su Vbk0ep3jUVf1pfbzuvai2Yg9elftb V5g72_FtEvkJXHQu_oVR
+select 978-0-380-12466-4
+modify -name="law" -author="RachelHayes" -keyword="linger|ignore|linger" -price=390.49
+select 978-1-62897-896-4
+modify -name="Angelica" -author="ChristopherBarrera" -keyword="sharecrop|organic|inveigh|honeydew" -price=417.78
+buy 978-1-69889-796-7 1
+show -author="SheriPeterson"
+select 978-0-320-60622-9
+modify -name="Rangoon" -price=289.49
+show -ISBN=978-0-320-60622-9 -author="DonnaMiles"
