@@ -12,6 +12,7 @@
 #include <vector>
 #include <stack>
 #include <map>
+#include <set>
 #include "types.hpp"
 #include "core.hpp"
 #include "database_cached.hpp"
@@ -66,10 +67,23 @@ public:
         for(int i = 0; i < x.length(); i++) if(!valid3[x[i]]) return 0;
         return 1;
     }
+    bool check_keywords(const char* keyword) const {
+        set<Other_Data> ret;
+        unsigned expected_size = 0;
+        for(int i = 0, j, len = strlen(keyword); i < len;) { // j is the first position after '|'.
+            for(j = i; j < len && keyword[j] != '|'; ++j) ;
+            Other_Data r2;
+            for(int k = 0; k < j - i; k++) r2.data[k] = keyword[i + k];
+            memcpy(r2.ISBN, "", len_ISBN);
+            ret.insert(r2), ++expected_size;
+            i = j + 1;
+        }
+        return ret.size() == expected_size;
+    }
     bool keyword(const string x) const {
         if(!x.length() || x.length() > 60) return 0;
         for(int i = 0; i < x.length(); i++) if(!valid3[x[i]]) return 0;
-        return 1;
+        return check_keywords(x.c_str());
     }
     bool quantity(const string x) const {
         if(!x.length() || (x.length() != 1 && x[0] == '0')) return 0;
