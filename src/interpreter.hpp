@@ -116,6 +116,7 @@ public:
     Interpreter() {
         string line;
         while((line = getline()) != "") {
+            debug << line << endl;
             auto sp = split(line);
             if(!sp.size()) continue; // empty line
             else if(sp[0] == "su") {
@@ -184,12 +185,14 @@ public:
                     }
                 } else {
                     if(sp.size() != 2) Invalid();
-                    auto t = solve_Core(sp[1]);
-                    if(!t.first) Invalid();
                     else {
-                        auto ans = core.show(t.second.first, t.second.second.c_str());
-                        if(!ans.first) Invalid();
-                        else printBooks(ans.second);
+                        auto t = solve_Core(sp[1]);
+                        if(!t.first) Invalid();
+                        else {
+                            auto ans = core.show(t.second.first, t.second.second.c_str());
+                            if(!ans.first) Invalid();
+                            else printBooks(ans.second);
+                        }
                     }
                 }
             } else if(sp[0] == "buy") {
