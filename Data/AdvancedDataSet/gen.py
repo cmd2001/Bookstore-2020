@@ -138,13 +138,14 @@ for i in range(1, TotalTestCaseNumber + 1):
                     else: # show books
                         Book = choice(list(BookList.values()))
                         f.write('show')
-                        ISBN_ = Book.ISBN if randint(0, 3) == 0 else ''
+                        fuck = randint(0, 3)
+                        ISBN_ = Book.ISBN if fuck == 0 else ''
                         if ISBN_ != '': f.write(' -ISBN=' + ISBN_)
-                        name_ = Book.name if randint(0, 3) == 0 else ''
+                        name_ = Book.name if fuck == 1 else ''
                         if name_ != '': f.write(' -name="' + name_ + '"')
-                        author_ = Book.author if randint(0, 2) != 0 else ''
+                        author_ = Book.author if fuck == 2 else ''
                         if author_ != '': f.write(' -author="' + author_ + '"')
-                        keyword_ = choice(Book.keyword.split('|')) if randint(0, 2) == 0 else ''
+                        keyword_ = choice(Book.keyword.split('|')) if fuck == 3 else ''
                         if keyword_ != '': f.write(' -keyword="' + keyword_ + '"')
                         f.write('\n')
             elif randint(0, 3) == 0:
