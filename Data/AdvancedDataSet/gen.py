@@ -4,6 +4,15 @@ from random import randint, choice, choices, uniform
 import string
 
 
+def unique(obj) -> list:
+    ret, tmp = [], set()
+    for x in obj:
+        if not x in tmp:
+            ret.append(x)
+            tmp.add(x)
+    return ret.copy()
+
+
 class UserType:
     def __init__(self, user_id, passwd, authority, name):
         self.user_id = user_id
@@ -17,10 +26,10 @@ class BookType:
         self.count = 0
 
 
-TotalTestCaseNumber = 10
-InstPerCase = 75
-AuthorCount = 15
-KeywordCount = 25
+TotalTestCaseNumber = 5
+InstPerCase = 500
+AuthorCount = 30
+KeywordCount = 10
 
 fake = Faker()
 fake.add_provider(isbn)
@@ -35,7 +44,7 @@ AuthorList = []
 for i in range(0, AuthorCount):
     AuthorList.append(''.join(fake.name().split()))
 
-KeywordList = choices(words, k = KeywordCount)
+KeywordList = unique(choices(words, k = KeywordCount))
 
 BookList = {}
 Select = ''
@@ -67,7 +76,6 @@ def Modify(BookList, Select, ISBN, name, author, keyword, price) -> str:
     if price != '': BookList[Select].price = price
     return Select
 
-
 for i in range(1, TotalTestCaseNumber + 1):
     with open(str(i) + '.in', 'w') as f:
         f.write('su root ' + UserList['root'].passwd + '\n')
@@ -81,7 +89,7 @@ for i in range(1, TotalTestCaseNumber + 1):
                     f.write('select ' + Select + '\n')
                     name_ = "" if randint(0, 2) == 0 else choice(words)
                     author_ = "" if randint(0, 2) == 0 else choice(AuthorList)
-                    keyword_ = "" if randint(0, 2) == 0 else '|'.join(choices(KeywordList, k = min(KeywordCount, randint(1, 5))))
+                    keyword_ = "" if randint(0, 2) == 0 else '|'.join(unique(choices(KeywordList, k = min(KeywordCount, randint(1, 5)))))
                     price_ = "" if randint(0, 2) == 0 else ('%.2f' % uniform(0, 500))
                     printModify(f, '', name_, author_, keyword_, price_)
                     if currentUser != '' and (UserList[currentUser].authority & 3) != 0:
@@ -94,7 +102,7 @@ for i in range(1, TotalTestCaseNumber + 1):
                 f.write('select ' + Select +'\n')
                 name_ = choice(words)
                 author_ = choice(AuthorList)
-                keyword_ = '|'.join(choices(KeywordList, k = min(KeywordCount, randint(1, 5))))
+                keyword_ = '|'.join(unique(choices(KeywordList, k = min(KeywordCount, randint(1, 5)))))
                 price_ = ('%.2f' % uniform(0, 500))
                 printModify(f, '', name_, author_, keyword_, price_)
                 if currentUser != '' and (UserList[currentUser].authority & 3) != 0:
@@ -138,14 +146,14 @@ for i in range(1, TotalTestCaseNumber + 1):
                     else: # show books
                         Book = choice(list(BookList.values()))
                         f.write('show')
-                        fuck = randint(0, 3)
-                        ISBN_ = Book.ISBN if fuck == 0 else ''
+                        sel = randint(0, 3)
+                        ISBN_ = Book.ISBN if sel == 0 else ''
                         if ISBN_ != '': f.write(' -ISBN=' + ISBN_)
-                        name_ = Book.name if fuck == 1 else ''
+                        name_ = Book.name if sel == 1 else ''
                         if name_ != '': f.write(' -name="' + name_ + '"')
-                        author_ = Book.author if fuck == 2 else ''
+                        author_ = Book.author if sel == 2 else ''
                         if author_ != '': f.write(' -author="' + author_ + '"')
-                        keyword_ = choice(Book.keyword.split('|')) if fuck == 3 else ''
+                        keyword_ = choice(Book.keyword.split('|')) if sel == 3 else ''
                         if keyword_ != '': f.write(' -keyword="' + keyword_ + '"')
                         f.write('\n')
             elif randint(0, 3) == 0:
