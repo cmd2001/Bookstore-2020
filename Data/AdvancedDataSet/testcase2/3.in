@@ -1,62 +1,115 @@
-su root sjtu
-useradd nlU83KlZpFQ3PKalidDRxFNRQ4ih poTqFn_dO2eJ7NSzq3aZ1m 1 PaulaFox
-useradd XEfb_yX0yS_ 1QwhK 3 ElizabethCollins
-passwd XEfb_yX0yS_ k6FMOKKEfnmyoOhkwLc
-select 978-1-69689-287-2
-modify -name="windup" -author="BarryBell" -keyword="Acapulco|medley|organic|medley|Lena" -price=204.42
-select 978-0-344-76805-7
-modify -name="nominee" -author="BarryBell" -keyword="take|inveigh" -price=204.97
-select 978-1-4944-7499-7
-modify -name="scoria" -author="DonnaMiles" -keyword="refugee|linger|Woodbury|ribosome|linger" -price=311.47
-useradd ie0 VJzhNCV9kJl1ep5lg 1 AaronThornton
-import 5 72.38
+su root HVGtMnxcSarKgjBYLpz8S9EeTBg
+delete aQlfeZTn
+useradd o8rTEkJsca1qXvRiK2RStFdELKoA ty2GftxISmgToWZ 3 DannyCowan
 logout
-su Vbk0ep3jUVf1pfbzuvai2Yg9elftb V5g72_FtEvkJXHQu_oVR
-select 978-0-320-60622-9
-modify -name="linseed" -author="SheriPeterson" -keyword="ignore|Sol" -price=387.24
-show -author="BarryBell" -keyword="medley"
-select 978-1-68583-812-6
-modify -name="urushiol" -author="MichelleStevens" -keyword="inveigh|take|honeydew" -price=205.71
+select 978-0-10-290176-4
+modify -name="rubbery" -author="Dr.DustinBranchDDS" -keyword="homologue|transistor|Hildebrand|Howard"
+su Z2_uxEotMPqSV1k_fhx CcqbZ4wSKYEm
 logout
-su BBplQ7DzaqgL_DQA8p Sr
-select 978-1-62897-896-4
-modify -name="probabilist" -author="RachelHayes"
-buy 978-1-69889-796-7 1
-show -author="BarryBell"
+select 978-1-131-92614-8
+modify -name="monastic" -author="AngelaStone" -keyword="soil|concentrate|transistor" -price=65.92
+su p3GhIE8z zLOZmFhaxFFk2
+select 978-1-4393-6830-5
+modify -author="JaniceHiggins" -keyword="vast|admonish|matriarchy" -price=106.26
+show -author="JaniceHiggins"
+show -ISBN=978-1-09-288029-9
+select 978-0-201-84949-3
+modify -name="hereto"
 logout
-select 978-0-344-76805-7
-modify -price=145.66
-register wdf83xGKKXcwAQL0DDvx9YWh FzxZMvz MatthewLeonard
-select 978-1-394-64704-0
-modify -name="splotchy" -author="DonnaMiles" -keyword="Lena" -price=233.17
-register ENoCvN 7SXsAo YvetteMitchell
-select 978-0-89865-345-8
-modify -name="sib" -author="MichelleStevens"
-register K3dTQkNpfbYT9cG2w L_rmPF2b KaylaHawkins
-su root sjtu
-select 978-0-320-60622-9
-modify -name="morpheme" -author="RobertJenkins" -keyword="linger|Lena|pseudo"
-select 978-0-344-76805-7
-modify -name="FTC" -author="IanMorris" -keyword="take|pinxter|ignore|medley|ribosome" -price=96.21
-useradd zOIiIsKZ0RhI1nuQeU saXxtoycwYxn4oqvj9 1 AnnaNavarro
-delete q00hw3m7qVtHPelJaxzcU4lyjw
-select 978-1-61415-922-3
-modify -name="connoisseur" -author="MichelleStevens" -keyword="honeydew|linger|Woodbury|organic|Sol" -price=110.67
-useradd oTGI_MwG7Prl7sA hbd7ZWJsQUl6u 1 DevinSherman
-delete XEfb_yX0yS_
-select 978-1-66291-651-9
-modify -name="along" -author="RachelHayes" -keyword="Sol|sharecrop|honeydew|explosive" -price=108.28
-delete HXvW1qxYKYqcJVACAoyJIiAJ7
+register dE99ADdnJNJqygbG9 v1njVoFNmX8e00HYOiuIluyoMB AmberJames
+register itY6ZdDUOVGezyrhQ2XT8Cqn1qlpTW iWD_H2MhU DenisePollard
+select 978-0-563-44784-9
+modify -name="twin" -author="BrandonRay" -keyword="soil|Howard" -price=120.68
+select 978-1-55067-803-1
+modify -author="DanielSanchez" -keyword="homologue"
+select 978-0-9734147-1-4
+modify -name="cage" -author="JaniceHiggins" -keyword="admonish|whiteface" -price=97.13
+su fjFT6WkfjYQXQDVyHqTllYmrZduMg 5iI3m
+buy 978-1-4393-6830-5 1
+show -name="hereto"
+buy 978-0-940505-80-3 1
+show -author="ElizabethOconnor"
 logout
-select 978-0-85766-153-1
-modify -name="gangland" -author="MichelleStevens" -keyword="organic|refugee|ribosome|refugee" -price=359.12
-select 978-0-320-60622-9
-modify -keyword="chromatography|refugee|sharecrop"
-register 4zBGJbOxQj1pfqMDITY Tz3c JamesGolden
-su zOIiIsKZ0RhI1nuQeU saXxtoycwYxn4oqvj9
-buy 978-1-02-864375-2 1
-select 978-1-68336-659-1
-modify -name="caddy" -author="MichelleStevens" -keyword="explosive|Acapulco|Woodbury|ignore|horrify" -price=461.70
-buy 978-1-68583-812-6 1
-buy 978-1-02-864375-2 1
-passwd 4zBGJbOxQj1pfqMDITY VbJ6ROTWNIJ0jaBscoY0DZ RMS8_8Nku7c6HCUzXMVZvpaf16
+register s78R1jNt3WVYrt6sOFJ f1SYO NicoleGibbs
+register _gv6PkQzkUp3tfvQtKK13 zBtHdPJjtzYQ3tpOVQkHDGq3lz ChristopherRivera
+select 978-0-940505-80-3
+modify -name="Johann"
+select 978-1-55067-803-1
+modify -name="immobile" -keyword="incline|homologue|soil"
+select 978-1-927590-53-9
+modify -name="Teddy" -author="LeonardHarrison" -keyword="Vassar|vast|soil|incline" -price=231.13
+su itY6ZdDUOVGezyrhQ2XT8Cqn1qlpTW iWD_H2MhU
+show -keyword="matriarchy"
+select 978-0-319-40222-1
+modify -name="imperishable" -author="Dr.DustinBranchDDS" -keyword="homologue|vast|built" -price=61.64
+buy 978-1-4393-6830-5 1
+passwd SacbyhoKGtEIrYHe t9gUAKGlFOBziN 4V3QIlatcUIVtttsuw_tl
+show -author="BrandonRay"
+buy 978-0-10-290176-4 1
+passwd itY6ZdDUOVGezyrhQ2XT8Cqn1qlpTW iWD_H2MhU mHduEOly
+buy 978-0-201-84949-3 1
+logout
+select 978-0-940505-80-3
+modify -name="euphoric" -author="AngelaStone" -price=450.54
+select 978-1-224-01116-4
+modify -name="loch" -author="LeonardHarrison" -keyword="pixy" -price=374.81
+su ef zbfRYcUm456HPMNZ1Cz
+buy 978-1-09-288029-9 1
+show -ISBN=978-0-201-84949-3
+show -name="immediacy"
+logout
+su fjFT6WkfjYQXQDVyHqTllYmrZduMg 5iI3m
+passwd fjFT6WkfjYQXQDVyHqTllYmrZduMg 5iI3m gtxKi2GUEEQt
+select 978-1-4393-6830-5
+modify -name="cacao" -author="ElizabethOconnor" -price=205.67
+passwd fjFT6WkfjYQXQDVyHqTllYmrZduMg gtxKi2GUEEQt Z_6OHvPvRACc
+buy 978-0-351-69822-4 1
+show -keyword="built"
+show -ISBN=978-1-4393-6830-5
+passwd fjFT6WkfjYQXQDVyHqTllYmrZduMg Z_6OHvPvRACc vxStZQyPPnI87VtdzxFYNSDO
+show -name="forget"
+buy 978-0-319-40222-1 1
+logout
+su ONvuFV_gQBtr LbLB3hmFBUBcG2Z17rfEquEjL4
+select 978-1-02-129328-2
+modify -name="Euclidean" -author="LanceReilly" -keyword="Vassar|incline|vast|injury|matriarchy" -price=314.52
+show -keyword="matriarchy"
+select 978-0-598-66567-6
+modify -name="bacon" -author="Dr.DustinBranchDDS" -keyword="admonish|vast|transistor|homologue" -price=246.38
+buy 978-1-09-288029-9 1
+show -name="Euclidean"
+logout
+select 978-0-351-69822-4
+modify -name="progeny" -author="LeonardHarrison" -keyword="transistor|matriarchy|built" -price=303.62
+select 978-1-02-129328-2
+modify -name="livre" -author="JaniceHiggins"
+select 978-0-10-290176-4
+modify -author="DanielSanchez" -keyword="matriarchy|vast|whiteface|pixy" -price=133.79
+su ef zbfRYcUm456HPMNZ1Cz
+select 978-0-426-28454-3
+modify -name="heathen" -author="JaniceHiggins" -keyword="admonish|injury" -price=466.07
+logout
+su ef zbfRYcUm456HPMNZ1Cz
+select 978-0-416-59166-8
+modify -name="changeover" -author="JeanneAtkinson" -keyword="incline" -price=200.90
+select 978-1-02-129328-2
+modify -name="illustrate" -author="AngelaStone" -keyword="built|Howard|admonish" -price=448.40
+logout
+su ef zbfRYcUm456HPMNZ1Cz
+show -keyword="built"
+select 978-1-02-129328-2
+modify -name="newsmen" -author="DanielSanchez" -keyword="matriarchy|whiteface|built|Howard"
+buy 978-0-319-40222-1 1
+select 978-1-962629-48-5
+modify -name="wheelhouse" -author="LeonardHarrison" -keyword="matriarchy|concentrate|incline" -price=290.19
+buy 978-0-201-84949-3 1
+buy 978-0-319-40222-1 1
+buy 978-0-201-84949-3 1
+buy 978-0-598-66567-6 1
+show -keyword="incline"
+buy 978-0-10-290176-4 1
+buy 978-0-940505-80-3 1
+buy 978-1-4393-6830-5 1
+buy 978-0-416-59166-8 1
+logout
+select 978-1-55067-803-1
