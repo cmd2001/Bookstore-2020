@@ -37,5 +37,6 @@ CMakeCache.txt
 code
 Makefile
 Data/AdvancedDataSet/testcase_boom1
+Data/ComplexDataSet/
 .idea
 exe/
