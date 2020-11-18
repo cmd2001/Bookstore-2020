@@ -225,7 +225,7 @@ public:
         if(t.first) { // exists
             current_Opt = t.second;
             sum_positive = db_metadata.query(2).second;
-            sum_negative = db_metadata.query(2).second;
+            sum_negative = db_metadata.query(3).second;
         } else {
             sum_positive = sum_negative = current_Opt = 0;
             save_Meta();
