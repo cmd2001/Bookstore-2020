@@ -38,3 +38,7 @@ code
 Makefile
 .idea
 exe/
+Data/ComplexDataSet/testcase1/*.in
+Data/ComplexDataSet/testcase3/*.in
+Data/ComplexDataSet/testcase4/*.in
+Data/ComplexDataSet/testcase5/*.in
